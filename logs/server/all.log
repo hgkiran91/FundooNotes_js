@@ -1,0 +1,20 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-18T08:10:26.602Z"}
+info: Connected to the database. {"timestamp":"2022-07-18T08:10:29.336Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-18T10:54:18.756Z"}
+info: Connected to the database. {"timestamp":"2022-07-18T10:54:18.806Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 4 characters long 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-18T10:57:25.296Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-18T10:57:41.052Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-18T11:00:58.356Z"}
+info: Connected to the database. {"timestamp":"2022-07-18T11:00:58.399Z"}

@@ -1,0 +1,14 @@
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 4 characters long 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-18T10:57:25.296Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-18T10:57:41.052Z"}
