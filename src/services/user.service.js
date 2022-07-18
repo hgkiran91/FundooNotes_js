@@ -7,7 +7,7 @@ export const getAllUsers = async () => {
 };
 
 //create new user
-export const newUser = async (body) => {
+export const UserRegistration = async (body) => {
   const data = await User.create(body);
   return data;
 };

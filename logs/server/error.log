@@ -12,3 +12,33 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-07-18T10:57:41.052Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/62d53d6f5cd160275055626a 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-07-18T11:22:49.770Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.newUser is not a function
+    at _callee3$ (C:\CFP_170\NodeJs\FundooNotes\src\controllers\/user.controller.js:50:36)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at newUser (C:\CFP_170\NodeJs\FundooNotes\src\controllers\/user.controller.js:48:21)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (C:\CFP_170\NodeJs\FundooNotes\src\validators\/user.validator.js:15:5)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-18T11:24:31.897Z"}

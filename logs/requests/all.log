@@ -8,3 +8,11 @@ info: ::1 - - [18/Jul/2022:10:57:41 +0000] "POST /api/v1/users HTTP/1.1" 500 59 
 
 info: ::1 - - [18/Jul/2022:11:01:03 +0000] "POST /api/v1/users HTTP/1.1" 201 262 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [18/Jul/2022:11:16:00 +0000] "GET /api/v1/users HTTP/1.1" 200 269 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [18/Jul/2022:11:22:49 +0000] "GET /api/v1/users/62d53d6f5cd160275055626a HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [18/Jul/2022:11:23:11 +0000] "GET /api/v1/users HTTP/1.1" 200 269 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [18/Jul/2022:11:24:31 +0000] "POST /api/v1/users HTTP/1.1" 500 72 "-" "PostmanRuntime/7.29.0"
+
