@@ -7,16 +7,19 @@ import * as UserService from '../services/user.service';
  * @param {object} res - response object
  * @param {Function} next
  */
-export const getAllUsers = async (req, res, next) => {
+export const userLogin = async (req, res, next) => {
   try {
-    const data = await UserService.getAllUsers();
+    const data = await UserService.userLogin(req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
-      message: 'All users fetched successfully'
+      message: 'User login successfully'
     });
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`,
+    });
   }
 };
 
@@ -45,7 +48,7 @@ export const getUser = async (req, res, next) => {
  * @param {object} res - response object
  * @param {Function} next
  */
-export const newUser = async (req, res, next) => {
+export const userRegistration = async (req, res, next) => {
   try {
     const data = await UserService.UserRegistration(req.body);
     res.status(HttpStatus.CREATED).json({
