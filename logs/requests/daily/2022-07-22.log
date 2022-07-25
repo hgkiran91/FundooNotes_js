@@ -1,0 +1,8 @@
+info: ::1 - - [22/Jul/2022:02:34:36 +0000] "PUT /api/v1/notes/62d9911eee6fa254e0309d7c HTTP/1.1" 202 297 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Jul/2022:02:35:04 +0000] "PUT /api/v1/notes/62d9911eee6fa254e0309d7c/isarchive HTTP/1.1" 202 298 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Jul/2022:02:36:30 +0000] "PUT /api/v1/notes/62d9911eee6fa254e0309d7c/isarchive HTTP/1.1" 202 316 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Jul/2022:02:38:30 +0000] "PUT /api/v1/notes/62d9911eee6fa254e0309d7c/isTrash HTTP/1.1" 202 332 "-" "PostmanRuntime/7.29.2"
+

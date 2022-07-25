@@ -1,20 +1,21 @@
 import User from '../models/user.model';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
+import { mailSender } from '../utils/mailSender';
 
 //get all users
 export const userLogin = async (body) => {
-  const data = await User.findOne({email: body.email});
+  const data = await User.findOne({ email: body.email });
   console.log(data);
   // return data;
-  if(data == null){
+  if (data == null) {
     throw new Error("User dosen't exist");
-  }else{
+  } else {
     const result = await bcrypt.compare(body.password, data.password);
-    if(result){
+    if (result) {
       const token = jwt.sign({ "Id": data._id, "firstName": data.firstName, "email": data.email }, process.env.SECRET_KEY);
       return token;
-    }else{
+    } else {
       throw new Error("Invalid Passowrd");
     }
   }
@@ -22,11 +23,11 @@ export const userLogin = async (body) => {
 
 //create new user
 export const UserRegistration = async (body) => {
-  console.log("Before hassing body:",body);
+  console.log("Before hassing body:", body);
   const saltRounds = 10;
   const hashPassword = await bcrypt.hash(body.password, saltRounds);
   body.password = hashPassword;
-  console.log("After hassing body:",body);
+  console.log("After hassing body:", body);
   const data = await User.create(body);
   return data;
 };
@@ -56,3 +57,4 @@ export const UserRegistration = async (body) => {
 //   const data = await User.findById(id);
 //   return data;
 // };
+

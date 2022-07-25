@@ -1,0 +1,248 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T01:47:55.376Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T01:47:55.436Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T02:10:45.567Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T02:10:45.607Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T02:20:33.367Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T02:20:33.412Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'UserID')
+    at _callee5$ (C:\CFP_170\NodeJs\FundooNotes\src\services\/note.service.js:31:58)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.deleteNote (C:\CFP_170\NodeJs\FundooNotes\src\services\/note.service.js:30:24)
+    at _callee5$ (C:\CFP_170\NodeJs\FundooNotes\src\controllers\/note.controller.js:94:23)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/delete/ 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-07-21T02:21:30.034Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T02:39:21.263Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T02:39:21.471Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T03:11:17.525Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T03:11:17.577Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/ 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-07-21T03:11:44.999Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T03:21:57.023Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T03:21:57.088Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T03:23:04.925Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T03:23:05.034Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T03:27:37.109Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T03:27:37.221Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T03:36:11.022Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T03:36:11.084Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T07:09:45.902Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T07:09:45.951Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T07:12:57.172Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T07:12:57.222Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T07:35:25.663Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T07:35:25.712Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T07:39:31.966Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T07:39:32.006Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T07:42:12.165Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T07:42:12.208Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T08:29:02.203Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T08:29:02.290Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T09:21:10.293Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T09:21:10.334Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T09:29:39.297Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T09:29:39.342Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T09:30:57.324Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T09:30:57.372Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/62d8c80e1306f13f149e2b21 
+      method - DELETE 
+      IP - ::1
+     {"timestamp":"2022-07-21T09:31:34.632Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/62d8108b497d123f58b687c1 
+      method - DELETE 
+      IP - ::1
+     {"timestamp":"2022-07-21T09:32:51.137Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T09:37:46.451Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T09:37:46.503Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T09:40:18.547Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T09:40:18.600Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T09:41:16.452Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T09:41:16.492Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T09:47:26.683Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T09:47:26.743Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T09:49:19.548Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T09:49:19.611Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T09:50:58.677Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T09:50:58.719Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T09:56:06.274Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T09:56:06.327Z"}
+error: 
+    status - 500 
+    message - TypeError: noteService.archieveNote is not a function
+    at _callee5$ (C:\CFP_170\NodeJs\FundooNotes\src\controllers\/note.controller.js:96:38)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at archieveNote (C:\CFP_170\NodeJs\FundooNotes\src\controllers\/note.controller.js:94:27)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\CFP_170\NodeJs\FundooNotes\src\middlewares\/auth.middleware.js:28:5)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/notes/62d8c80e1306f13f149e2b21/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-21T09:56:56.644Z"}
+error: 
+    status - 500 
+    message - TypeError: noteService.archieveNote is not a function
+    at _callee5$ (C:\CFP_170\NodeJs\FundooNotes\src\controllers\/note.controller.js:96:38)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at archieveNote (C:\CFP_170\NodeJs\FundooNotes\src\controllers\/note.controller.js:94:27)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\CFP_170\NodeJs\FundooNotes\src\middlewares\/auth.middleware.js:28:5)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/notes/62d8c80e1306f13f149e2b21/isarchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-21T09:59:06.542Z"}
+error: 
+    status - 500 
+    message - TypeError: noteService.archieveNote is not a function
+    at _callee5$ (C:\CFP_170\NodeJs\FundooNotes\src\controllers\/note.controller.js:96:38)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at archieveNote (C:\CFP_170\NodeJs\FundooNotes\src\controllers\/note.controller.js:94:27)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\CFP_170\NodeJs\FundooNotes\src\middlewares\/auth.middleware.js:28:5)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/notes/62d8c80e1306f13f149e2b21/isarchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-21T09:59:44.481Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T10:02:17.006Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T10:02:17.062Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee5$ (C:\CFP_170\NodeJs\FundooNotes\src\services\/note.service.js:31:54)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archieveNote (C:\CFP_170\NodeJs\FundooNotes\src\services\/note.service.js:30:26)
+    at _callee5$ (C:\CFP_170\NodeJs\FundooNotes\src\controllers\/note.controller.js:96:38)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/62d8c80e1306f13f149e2b21/isarchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-21T10:02:22.621Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T10:03:12.956Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T10:03:13.010Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee5$ (C:\CFP_170\NodeJs\FundooNotes\src\services\/note.service.js:31:67)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archieveNote (C:\CFP_170\NodeJs\FundooNotes\src\services\/note.service.js:30:26)
+    at _callee5$ (C:\CFP_170\NodeJs\FundooNotes\src\controllers\/note.controller.js:96:38)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/62d8c80e1306f13f149e2b21/isarchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-21T10:03:16.737Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T10:04:00.401Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T10:04:00.478Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T10:09:07.608Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T10:09:07.674Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T10:21:59.632Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T10:21:59.682Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T10:47:53.665Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T10:47:53.712Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T10:48:49.353Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T10:48:49.405Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T10:49:48.978Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T10:49:49.068Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T12:20:50.776Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T12:20:50.818Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T16:43:05.757Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T16:43:05.796Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T16:58:17.135Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T16:58:17.175Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T17:02:04.994Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T17:02:05.033Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T17:02:43.254Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T17:02:43.286Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T17:06:54.662Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T17:06:54.694Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T17:46:59.072Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T17:46:59.125Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T17:49:37.217Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T17:49:37.256Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/ 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-07-21T17:49:57.214Z"}

@@ -140,3 +140,389 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-07-19T03:19:02.546Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-20T13:24:46.090Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T13:24:46.128Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'addNote')
+    at _callee$ (C:\CFP_170\NodeJs\FundooNotes\src\controllers\/note.controller.js:15:40)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addNote (C:\CFP_170\NodeJs\FundooNotes\src\controllers\/note.controller.js:12:21)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-20T13:28:11.539Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-20T13:53:14.448Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T13:53:14.508Z"}
+error: uncaughtException: this.any is not a function
+TypeError: this.any is not a function
+    at model.root.<computed> (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\index.js:67:25)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2305:62
+    at Array.forEach (<anonymous>)
+    at _evaluateRequiredFunctions (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2301:51)
+    at _getPathsToValidate (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2317:3)
+    at model.Document.$__validate (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2491:23)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\kareem\index.js:370:33
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {"date":"Wed Jul 20 2022 19:25:42 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":42169},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18430292,"external":20099289,"heapTotal":48517120,"heapUsed":44114480,"rss":80375808},"pid":17364,"uid":null,"version":"v16.15.1"},"stack":"TypeError: this.any is not a function\n    at model.root.<computed> (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@hapi\\joi\\lib\\index.js:67:25)\n    at C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2305:62\n    at Array.forEach (<anonymous>)\n    at _evaluateRequiredFunctions (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2301:51)\n    at _getPathsToValidate (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2317:3)\n    at model.Document.$__validate (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2491:23)\n    at C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\kareem\\index.js:370:33\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)","timestamp":"2022-07-20T13:55:42.735Z","trace":[{"column":25,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@hapi\\joi\\lib\\index.js","function":"model.root.<computed>","line":67,"method":"<computed>","native":false},{"column":62,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":null,"line":2305,"method":null,"native":false},{"column":null,"file":null,"function":"Array.forEach","line":null,"method":"forEach","native":false},{"column":51,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":"_evaluateRequiredFunctions","line":2301,"method":null,"native":false},{"column":3,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":"_getPathsToValidate","line":2317,"method":null,"native":false},{"column":23,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":"model.Document.$__validate","line":2491,"method":"$__validate","native":false},{"column":33,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\kareem\\index.js","function":null,"line":370,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":78,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-20T13:57:43.767Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T13:57:43.819Z"}
+error: uncaughtException: this.any is not a function
+TypeError: this.any is not a function
+    at model.root.<computed> (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\index.js:67:25)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2305:62
+    at Array.forEach (<anonymous>)
+    at _evaluateRequiredFunctions (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2301:51)
+    at _getPathsToValidate (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2317:3)
+    at model.Document.$__validate (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2491:23)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\kareem\index.js:370:33
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {"date":"Wed Jul 20 2022 19:27:52 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":42299},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19815755,"external":22903810,"heapTotal":82993152,"heapUsed":55544976,"rss":116867072},"pid":15056,"uid":null,"version":"v16.15.1"},"stack":"TypeError: this.any is not a function\n    at model.root.<computed> (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@hapi\\joi\\lib\\index.js:67:25)\n    at C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2305:62\n    at Array.forEach (<anonymous>)\n    at _evaluateRequiredFunctions (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2301:51)\n    at _getPathsToValidate (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2317:3)\n    at model.Document.$__validate (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2491:23)\n    at C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\kareem\\index.js:370:33\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)","timestamp":"2022-07-20T13:57:52.729Z","trace":[{"column":25,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@hapi\\joi\\lib\\index.js","function":"model.root.<computed>","line":67,"method":"<computed>","native":false},{"column":62,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":null,"line":2305,"method":null,"native":false},{"column":null,"file":null,"function":"Array.forEach","line":null,"method":"forEach","native":false},{"column":51,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":"_evaluateRequiredFunctions","line":2301,"method":null,"native":false},{"column":3,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":"_getPathsToValidate","line":2317,"method":null,"native":false},{"column":23,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":"model.Document.$__validate","line":2491,"method":"$__validate","native":false},{"column":33,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\kareem\\index.js","function":null,"line":370,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":78,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-20T14:09:26.598Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T14:09:26.661Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-20T14:21:51.463Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T14:21:51.510Z"}
+error: uncaughtException: this.any is not a function
+TypeError: this.any is not a function
+    at model.root.<computed> (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\index.js:67:25)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2305:62
+    at Array.forEach (<anonymous>)
+    at _evaluateRequiredFunctions (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2301:51)
+    at _getPathsToValidate (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2317:3)
+    at model.Document.$__validate (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2491:23)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\kareem\index.js:370:33
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {"date":"Wed Jul 20 2022 19:52:41 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":43788},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18285713,"external":20084827,"heapTotal":49041408,"heapUsed":44261336,"rss":81031168},"pid":19264,"uid":null,"version":"v16.15.1"},"stack":"TypeError: this.any is not a function\n    at model.root.<computed> (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@hapi\\joi\\lib\\index.js:67:25)\n    at C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2305:62\n    at Array.forEach (<anonymous>)\n    at _evaluateRequiredFunctions (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2301:51)\n    at _getPathsToValidate (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2317:3)\n    at model.Document.$__validate (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2491:23)\n    at C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\kareem\\index.js:370:33\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)","timestamp":"2022-07-20T14:22:41.954Z","trace":[{"column":25,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@hapi\\joi\\lib\\index.js","function":"model.root.<computed>","line":67,"method":"<computed>","native":false},{"column":62,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":null,"line":2305,"method":null,"native":false},{"column":null,"file":null,"function":"Array.forEach","line":null,"method":"forEach","native":false},{"column":51,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":"_evaluateRequiredFunctions","line":2301,"method":null,"native":false},{"column":3,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":"_getPathsToValidate","line":2317,"method":null,"native":false},{"column":23,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":"model.Document.$__validate","line":2491,"method":"$__validate","native":false},{"column":33,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\kareem\\index.js","function":null,"line":370,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":78,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-20T14:26:13.644Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T14:26:13.703Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-20T17:08:35.801Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T17:08:35.877Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-20T17:11:44.837Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T17:11:44.933Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-20T17:15:45.617Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T17:15:45.678Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-20T17:28:41.213Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T17:28:41.275Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-20T17:31:37.307Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T17:31:37.373Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T01:47:55.376Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T01:47:55.436Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T02:10:45.567Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T02:10:45.607Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T02:20:33.367Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T02:20:33.412Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'UserID')
+    at _callee5$ (C:\CFP_170\NodeJs\FundooNotes\src\services\/note.service.js:31:58)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.deleteNote (C:\CFP_170\NodeJs\FundooNotes\src\services\/note.service.js:30:24)
+    at _callee5$ (C:\CFP_170\NodeJs\FundooNotes\src\controllers\/note.controller.js:94:23)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/delete/ 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-07-21T02:21:30.034Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T02:39:21.263Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T02:39:21.471Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T03:11:17.525Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T03:11:17.577Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/ 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-07-21T03:11:44.999Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T03:21:57.023Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T03:21:57.088Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T03:23:04.925Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T03:23:05.034Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T03:27:37.109Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T03:27:37.221Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T03:36:11.022Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T03:36:11.084Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T07:09:45.902Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T07:09:45.951Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T07:12:57.172Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T07:12:57.222Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T07:35:25.663Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T07:35:25.712Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T07:39:31.966Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T07:39:32.006Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T07:42:12.165Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T07:42:12.208Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T08:29:02.203Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T08:29:02.290Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T09:21:10.293Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T09:21:10.334Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T09:29:39.297Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T09:29:39.342Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T09:30:57.324Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T09:30:57.372Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/62d8c80e1306f13f149e2b21 
+      method - DELETE 
+      IP - ::1
+     {"timestamp":"2022-07-21T09:31:34.632Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/62d8108b497d123f58b687c1 
+      method - DELETE 
+      IP - ::1
+     {"timestamp":"2022-07-21T09:32:51.137Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T09:37:46.451Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T09:37:46.503Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T09:40:18.547Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T09:40:18.600Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T09:41:16.452Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T09:41:16.492Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T09:47:26.683Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T09:47:26.743Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T09:49:19.548Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T09:49:19.611Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T09:50:58.677Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T09:50:58.719Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T09:56:06.274Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T09:56:06.327Z"}
+error: 
+    status - 500 
+    message - TypeError: noteService.archieveNote is not a function
+    at _callee5$ (C:\CFP_170\NodeJs\FundooNotes\src\controllers\/note.controller.js:96:38)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at archieveNote (C:\CFP_170\NodeJs\FundooNotes\src\controllers\/note.controller.js:94:27)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\CFP_170\NodeJs\FundooNotes\src\middlewares\/auth.middleware.js:28:5)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/notes/62d8c80e1306f13f149e2b21/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-21T09:56:56.644Z"}
+error: 
+    status - 500 
+    message - TypeError: noteService.archieveNote is not a function
+    at _callee5$ (C:\CFP_170\NodeJs\FundooNotes\src\controllers\/note.controller.js:96:38)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at archieveNote (C:\CFP_170\NodeJs\FundooNotes\src\controllers\/note.controller.js:94:27)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\CFP_170\NodeJs\FundooNotes\src\middlewares\/auth.middleware.js:28:5)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/notes/62d8c80e1306f13f149e2b21/isarchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-21T09:59:06.542Z"}
+error: 
+    status - 500 
+    message - TypeError: noteService.archieveNote is not a function
+    at _callee5$ (C:\CFP_170\NodeJs\FundooNotes\src\controllers\/note.controller.js:96:38)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at archieveNote (C:\CFP_170\NodeJs\FundooNotes\src\controllers\/note.controller.js:94:27)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\CFP_170\NodeJs\FundooNotes\src\middlewares\/auth.middleware.js:28:5)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/notes/62d8c80e1306f13f149e2b21/isarchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-21T09:59:44.481Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T10:02:17.006Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T10:02:17.062Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee5$ (C:\CFP_170\NodeJs\FundooNotes\src\services\/note.service.js:31:54)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archieveNote (C:\CFP_170\NodeJs\FundooNotes\src\services\/note.service.js:30:26)
+    at _callee5$ (C:\CFP_170\NodeJs\FundooNotes\src\controllers\/note.controller.js:96:38)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/62d8c80e1306f13f149e2b21/isarchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-21T10:02:22.621Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T10:03:12.956Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T10:03:13.010Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee5$ (C:\CFP_170\NodeJs\FundooNotes\src\services\/note.service.js:31:67)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archieveNote (C:\CFP_170\NodeJs\FundooNotes\src\services\/note.service.js:30:26)
+    at _callee5$ (C:\CFP_170\NodeJs\FundooNotes\src\controllers\/note.controller.js:96:38)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/62d8c80e1306f13f149e2b21/isarchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-21T10:03:16.737Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T10:04:00.401Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T10:04:00.478Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T10:09:07.608Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T10:09:07.674Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T10:21:59.632Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T10:21:59.682Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T10:47:53.665Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T10:47:53.712Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T10:48:49.353Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T10:48:49.405Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T10:49:48.978Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T10:49:49.068Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T12:20:50.776Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T12:20:50.818Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T16:43:05.757Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T16:43:05.796Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T16:58:17.135Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T16:58:17.175Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T17:02:04.994Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T17:02:05.033Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T17:02:43.254Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T17:02:43.286Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T17:06:54.662Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T17:06:54.694Z"}
+error: uncaughtException: this.any is not a function
+TypeError: this.any is not a function
+    at model.root.<computed> (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\index.js:67:25)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2305:62
+    at Array.forEach (<anonymous>)
+    at _evaluateRequiredFunctions (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2301:51)
+    at _getPathsToValidate (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2317:3)
+    at model.Document.$__validate (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2491:23)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\kareem\index.js:370:33
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {"date":"Thu Jul 21 2022 23:15:12 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":142337},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18440367,"external":20225344,"heapTotal":49565696,"heapUsed":45359368,"rss":82014208},"pid":20240,"uid":null,"version":"v16.15.1"},"stack":"TypeError: this.any is not a function\n    at model.root.<computed> (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@hapi\\joi\\lib\\index.js:67:25)\n    at C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2305:62\n    at Array.forEach (<anonymous>)\n    at _evaluateRequiredFunctions (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2301:51)\n    at _getPathsToValidate (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2317:3)\n    at model.Document.$__validate (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2491:23)\n    at C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\kareem\\index.js:370:33\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)","timestamp":"2022-07-21T17:45:12.648Z","trace":[{"column":25,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@hapi\\joi\\lib\\index.js","function":"model.root.<computed>","line":67,"method":"<computed>","native":false},{"column":62,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":null,"line":2305,"method":null,"native":false},{"column":null,"file":null,"function":"Array.forEach","line":null,"method":"forEach","native":false},{"column":51,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":"_evaluateRequiredFunctions","line":2301,"method":null,"native":false},{"column":3,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":"_getPathsToValidate","line":2317,"method":null,"native":false},{"column":23,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":"model.Document.$__validate","line":2491,"method":"$__validate","native":false},{"column":33,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\kareem\\index.js","function":null,"line":370,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":78,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T17:46:59.072Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T17:46:59.125Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-21T17:49:37.217Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T17:49:37.256Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/ 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-07-21T17:49:57.214Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-22T02:36:24.589Z"}
+info: Connected to the database. {"timestamp":"2022-07-22T02:36:24.804Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-22T02:38:23.947Z"}
+info: Connected to the database. {"timestamp":"2022-07-22T02:38:24.069Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-23T11:09:42.350Z"}
+info: Connected to the database. {"timestamp":"2022-07-23T11:09:42.414Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-25T13:53:42.726Z"}
+info: Connected to the database. {"timestamp":"2022-07-25T13:53:42.819Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-25T13:56:55.599Z"}
+info: Connected to the database. {"timestamp":"2022-07-25T13:56:55.693Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-25T14:18:20.109Z"}
+info: Connected to the database. {"timestamp":"2022-07-25T14:18:20.156Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\CFP_170\NodeJs\FundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\CFP_170\NodeJs\FundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee2$ (C:\CFP_170\NodeJs\FundooNotes\src\middlewares\/auth.middleware.js:52:28)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at resetAuth (C:\CFP_170\NodeJs\FundooNotes\src\middlewares\/auth.middleware.js:41:24)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/users/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5laGF5YXk0ODdAYWx0cGFuby5jb20iLCJfaWQiOiI2MmRlYTJiNjRlZWQwYzJhYjg0MzZhYzMiLCJpYXQiOjE2NTg3NTc4NTd9.mhHmRkwozofCw8x1p_2NY7AR0FzdbAB-jgsMGxD2-fc 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-25T14:19:26.011Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-25T14:21:35.603Z"}
+info: Connected to the database. {"timestamp":"2022-07-25T14:21:35.657Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-25T14:25:05.925Z"}
+info: Connected to the database. {"timestamp":"2022-07-25T14:25:06.006Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-25T14:27:07.260Z"}
+info: Connected to the database. {"timestamp":"2022-07-25T14:27:07.311Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-25T14:28:15.419Z"}
+info: Connected to the database. {"timestamp":"2022-07-25T14:28:15.571Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-25T14:32:05.699Z"}
+info: Connected to the database. {"timestamp":"2022-07-25T14:32:05.746Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-25T14:34:53.288Z"}
+info: Connected to the database. {"timestamp":"2022-07-25T14:34:53.347Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-25T14:36:04.284Z"}
+info: Connected to the database. {"timestamp":"2022-07-25T14:36:04.339Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-25T15:22:06.516Z"}
+info: Connected to the database. {"timestamp":"2022-07-25T15:22:06.577Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-25T16:53:49.179Z"}
+info: Connected to the database. {"timestamp":"2022-07-25T16:53:49.277Z"}
