@@ -54,6 +54,264 @@ info: ::1 - - [19/Jul/2022:03:17:29 +0000] "POST /api/v1/users HTTP/1.1" 500 65 
 
 info: ::1 - - [19/Jul/2022:03:19:02 +0000] "POST /api/v1/users HTTP/1.1" 500 60 "-" "PostmanRuntime/7.29.2"
 
+<<<<<<< HEAD
+info: ::1 - - [20/Jul/2022:13:28:11 +0000] "POST /api/v1/notes HTTP/1.1" 500 90 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: this.any is not a function
+TypeError: this.any is not a function
+    at model.root.<computed> (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\index.js:67:25)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2305:62
+    at Array.forEach (<anonymous>)
+    at _evaluateRequiredFunctions (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2301:51)
+    at _getPathsToValidate (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2317:3)
+    at model.Document.$__validate (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2491:23)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\kareem\index.js:370:33
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {"date":"Wed Jul 20 2022 19:25:42 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":42169},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18438508,"external":20107545,"heapTotal":48517120,"heapUsed":44192776,"rss":81088512},"pid":17364,"uid":null,"version":"v16.15.1"},"stack":"TypeError: this.any is not a function\n    at model.root.<computed> (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@hapi\\joi\\lib\\index.js:67:25)\n    at C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2305:62\n    at Array.forEach (<anonymous>)\n    at _evaluateRequiredFunctions (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2301:51)\n    at _getPathsToValidate (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2317:3)\n    at model.Document.$__validate (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2491:23)\n    at C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\kareem\\index.js:370:33\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)","trace":[{"column":25,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@hapi\\joi\\lib\\index.js","function":"model.root.<computed>","line":67,"method":"<computed>","native":false},{"column":62,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":null,"line":2305,"method":null,"native":false},{"column":null,"file":null,"function":"Array.forEach","line":null,"method":"forEach","native":false},{"column":51,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":"_evaluateRequiredFunctions","line":2301,"method":null,"native":false},{"column":3,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":"_getPathsToValidate","line":2317,"method":null,"native":false},{"column":23,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":"model.Document.$__validate","line":2491,"method":"$__validate","native":false},{"column":33,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\kareem\\index.js","function":null,"line":370,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":78,"method":null,"native":false}]}
+error: uncaughtException: this.any is not a function
+TypeError: this.any is not a function
+    at model.root.<computed> (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\index.js:67:25)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2305:62
+    at Array.forEach (<anonymous>)
+    at _evaluateRequiredFunctions (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2301:51)
+    at _getPathsToValidate (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2317:3)
+    at model.Document.$__validate (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2491:23)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\kareem\index.js:370:33
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {"date":"Wed Jul 20 2022 19:27:52 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":42299},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19823971,"external":22912066,"heapTotal":82993152,"heapUsed":55617320,"rss":117616640},"pid":15056,"uid":null,"version":"v16.15.1"},"stack":"TypeError: this.any is not a function\n    at model.root.<computed> (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@hapi\\joi\\lib\\index.js:67:25)\n    at C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2305:62\n    at Array.forEach (<anonymous>)\n    at _evaluateRequiredFunctions (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2301:51)\n    at _getPathsToValidate (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2317:3)\n    at model.Document.$__validate (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2491:23)\n    at C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\kareem\\index.js:370:33\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)","trace":[{"column":25,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@hapi\\joi\\lib\\index.js","function":"model.root.<computed>","line":67,"method":"<computed>","native":false},{"column":62,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":null,"line":2305,"method":null,"native":false},{"column":null,"file":null,"function":"Array.forEach","line":null,"method":"forEach","native":false},{"column":51,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":"_evaluateRequiredFunctions","line":2301,"method":null,"native":false},{"column":3,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":"_getPathsToValidate","line":2317,"method":null,"native":false},{"column":23,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":"model.Document.$__validate","line":2491,"method":"$__validate","native":false},{"column":33,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\kareem\\index.js","function":null,"line":370,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":78,"method":null,"native":false}]}
+error: uncaughtException: this.any is not a function
+TypeError: this.any is not a function
+    at model.root.<computed> (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\index.js:67:25)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2305:62
+    at Array.forEach (<anonymous>)
+    at _evaluateRequiredFunctions (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2301:51)
+    at _getPathsToValidate (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2317:3)
+    at model.Document.$__validate (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2491:23)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\kareem\index.js:370:33
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {"date":"Wed Jul 20 2022 19:52:41 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":43788},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18293929,"external":20093083,"heapTotal":49303552,"heapUsed":44593368,"rss":81850368},"pid":19264,"uid":null,"version":"v16.15.1"},"stack":"TypeError: this.any is not a function\n    at model.root.<computed> (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@hapi\\joi\\lib\\index.js:67:25)\n    at C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2305:62\n    at Array.forEach (<anonymous>)\n    at _evaluateRequiredFunctions (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2301:51)\n    at _getPathsToValidate (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2317:3)\n    at model.Document.$__validate (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2491:23)\n    at C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\kareem\\index.js:370:33\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)","trace":[{"column":25,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@hapi\\joi\\lib\\index.js","function":"model.root.<computed>","line":67,"method":"<computed>","native":false},{"column":62,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":null,"line":2305,"method":null,"native":false},{"column":null,"file":null,"function":"Array.forEach","line":null,"method":"forEach","native":false},{"column":51,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":"_evaluateRequiredFunctions","line":2301,"method":null,"native":false},{"column":3,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":"_getPathsToValidate","line":2317,"method":null,"native":false},{"column":23,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":"model.Document.$__validate","line":2491,"method":"$__validate","native":false},{"column":33,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\kareem\\index.js","function":null,"line":370,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":78,"method":null,"native":false}]}
+info: ::1 - - [20/Jul/2022:14:26:19 +0000] "POST /api/v1/notes HTTP/1.1" 201 237 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [20/Jul/2022:17:09:03 +0000] "GET /api/v1/notes/get HTTP/1.1" 200 244 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [20/Jul/2022:17:16:28 +0000] "POST /api/v1/notes HTTP/1.1" 201 231 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [20/Jul/2022:17:16:58 +0000] "GET /api/v1/notes/get HTTP/1.1" 200 418 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [20/Jul/2022:17:26:56 +0000] "POST /api/v1/notes/note_id/62d8386ce312b635b84911d2 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [20/Jul/2022:17:27:13 +0000] "GET /api/v1/notes/note_id/62d8386ce312b635b84911d2 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [20/Jul/2022:17:28:53 +0000] "GET /api/v1/notes/note_id/62d8386ce312b635b84911d2 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [20/Jul/2022:17:31:47 +0000] "GET /api/v1/notes/note_id/62d8386ce312b635b84911d2 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:01:49:45 +0000] "GET /api/v1/notes/note_id/62d8386ce312b635b84911d2 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:02:21:07 +0000] "DELETE /api/v1/notes/delete/62d8386ce312b635b84911d2 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:02:21:30 +0000] "DELETE /api/v1/notes/delete/ HTTP/1.1" 500 89 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:02:23:22 +0000] "DELETE /api/v1/notes/delete/62d8108b497d123f58b687c1 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:02:23:47 +0000] "GET /api/v1/notes/get HTTP/1.1" 200 418 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:03:11:45 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:03:14:38 +0000] "POST /api/v1/users/ HTTP/1.1" 201 320 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:03:15:42 +0000] "POST /api/v1/users/ HTTP/1.1" 201 318 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:03:16:13 +0000] "GET /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:03:16:23 +0000] "POST /api/v1/users/login HTTP/1.1" 200 266 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:03:17:56 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 418 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:03:19:35 +0000] "POST /api/v1/users/login HTTP/1.1" 200 273 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:03:20:07 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 418 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:03:22:21 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 418 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:03:23:10 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 418 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:03:29:18 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 255 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:03:36:38 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 262 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:03:37:43 +0000] "GET /api/v1/users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:03:37:48 +0000] "GET /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:03:38:00 +0000] "POST /api/v1/users/login HTTP/1.1" 200 266 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:03:38:27 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 65 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:07:11:22 +0000] "PUT /api/v1/notes/_id/62d8108b497d123f58b687c1 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:07:13:10 +0000] "PUT /api/v1/notes/_id/62d8108b497d123f58b687c1 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:07:14:04 +0000] "DELETE /api/v1/notes/_id/62d8108b497d123f58b687c1 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:07:15:49 +0000] "DELETE /api/v1/notes/_id/62d8c80e1306f13f149e2b21 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:07:35:46 +0000] "DELETE /api/v1/notes/id/62d8c80e1306f13f149e2b21 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:07:37:12 +0000] "DELETE /api/v1/notes/id/62d8c80e1306f13f149e2b21 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:07:39:51 +0000] "DELETE /api/v1/notes/id/62d8c80e1306f13f149e2b21 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:07:40:05 +0000] "DELETE /api/v1/notes/id/62d8c80e1306f13f149e2b21 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:07:42:17 +0000] "DELETE /api/v1/notes/id/62d8c80e1306f13f149e2b21 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:08:29:15 +0000] "DELETE /api/v1/notes/id/62d8c80e1306f13f149e2b21 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:09:21:15 +0000] "DELETE /api/v1/notes/id/62d8c80e1306f13f149e2b21 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:09:21:21 +0000] "DELETE /api/v1/notes/_id/62d8c80e1306f13f149e2b21 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:09:31:34 +0000] "DELETE /api/v1/notes/62d8c80e1306f13f149e2b21 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:09:32:51 +0000] "DELETE /api/v1/notes/62d8108b497d123f58b687c1 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:09:34:28 +0000] "POST /api/v1/users HTTP/1.1" 400 96 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:09:34:53 +0000] "POST /api/v1/users HTTP/1.1" 201 314 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:09:35:16 +0000] "POST /api/v1/users/login HTTP/1.1" 200 265 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:09:36:41 +0000] "POST /api/v1/notes HTTP/1.1" 400 126 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:09:37:53 +0000] "POST /api/v1/notes HTTP/1.1" 400 126 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:09:40:22 +0000] "POST /api/v1/notes HTTP/1.1" 400 126 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:09:41:22 +0000] "POST /api/v1/notes HTTP/1.1" 201 249 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:09:41:55 +0000] "DELETE /api/v1/notes/62d91f42d36b13256ce88999 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:09:47:46 +0000] "GET /api/v1/notes/62d8c80e1306f13f149e2b21 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:09:49:27 +0000] "GET /api/v1/notes/62d8c80e1306f13f149e2b21 HTTP/1.1" 200 255 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:09:50:30 +0000] "PUT /api/v1/notes/62d8c80e1306f13f149e2b21 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:09:51:02 +0000] "PUT /api/v1/notes/62d8c80e1306f13f149e2b21 HTTP/1.1" 202 249 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:09:56:56 +0000] "PUT /api/v1/notes/62d8c80e1306f13f149e2b21/isArchive HTTP/1.1" 500 77 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:09:59:06 +0000] "PUT /api/v1/notes/62d8c80e1306f13f149e2b21/isarchive HTTP/1.1" 500 77 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:09:59:44 +0000] "PUT /api/v1/notes/62d8c80e1306f13f149e2b21/isarchive HTTP/1.1" 500 77 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:10:02:22 +0000] "PUT /api/v1/notes/62d8c80e1306f13f149e2b21/isarchive HTTP/1.1" 500 53 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:10:03:16 +0000] "PUT /api/v1/notes/62d8c80e1306f13f149e2b21/isarchive HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:10:04:03 +0000] "PUT /api/v1/notes/62d8c80e1306f13f149e2b21/isarchive HTTP/1.1" 202 267 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:10:09:23 +0000] "PUT /api/v1/notes/62d8c80e1306f13f149e2b21/isarchive HTTP/1.1" 202 267 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:10:22:14 +0000] "PUT /api/v1/notes/62d8c80e1306f13f149e2b21/isTrash HTTP/1.1" 202 284 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:10:47:58 +0000] "PUT /api/v1/notes/62d8c80e1306f13f149e2b21/isTrash HTTP/1.1" 202 284 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:10:48:53 +0000] "PUT /api/v1/notes/62d8c80e1306f13f149e2b21/isTrash HTTP/1.1" 202 284 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:10:49:52 +0000] "PUT /api/v1/notes/62d8c80e1306f13f149e2b21/isTrash HTTP/1.1" 202 284 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:12:20:56 +0000] "PUT /api/v1/notes/62d8c80e1306f13f149e2b21/isTrash HTTP/1.1" 202 284 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:12:21:09 +0000] "PUT /api/v1/notes/62d8c80e1306f13f149e2b21/isarchive HTTP/1.1" 202 285 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:16:58:22 +0000] "PUT /api/v1/notes/62d8c80e1306f13f149e2b21/isarchive HTTP/1.1" 202 285 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:17:02:09 +0000] "PUT /api/v1/notes/62d8c80e1306f13f149e2b21/isarchive HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:17:02:46 +0000] "PUT /api/v1/notes/62d8c80e1306f13f149e2b21/isarchive HTTP/1.1" 202 285 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:17:43:07 +0000] "POST /api/v1/users HTTP/1.1" 201 322 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:17:43:29 +0000] "GET /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:17:43:37 +0000] "POST /api/v1/users/login HTTP/1.1" 200 274 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: this.any is not a function
+TypeError: this.any is not a function
+    at model.root.<computed> (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\index.js:67:25)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2305:62
+    at Array.forEach (<anonymous>)
+    at _evaluateRequiredFunctions (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2301:51)
+    at _getPathsToValidate (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2317:3)
+    at model.Document.$__validate (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\document.js:2491:23)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\kareem\index.js:370:33
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {"date":"Thu Jul 21 2022 23:15:12 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":142337},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18448583,"external":20233600,"heapTotal":49565696,"heapUsed":45433240,"rss":82788352},"pid":20240,"uid":null,"version":"v16.15.1"},"stack":"TypeError: this.any is not a function\n    at model.root.<computed> (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@hapi\\joi\\lib\\index.js:67:25)\n    at C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2305:62\n    at Array.forEach (<anonymous>)\n    at _evaluateRequiredFunctions (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2301:51)\n    at _getPathsToValidate (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2317:3)\n    at model.Document.$__validate (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js:2491:23)\n    at C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\kareem\\index.js:370:33\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)","trace":[{"column":25,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@hapi\\joi\\lib\\index.js","function":"model.root.<computed>","line":67,"method":"<computed>","native":false},{"column":62,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":null,"line":2305,"method":null,"native":false},{"column":null,"file":null,"function":"Array.forEach","line":null,"method":"forEach","native":false},{"column":51,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":"_evaluateRequiredFunctions","line":2301,"method":null,"native":false},{"column":3,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":"_getPathsToValidate","line":2317,"method":null,"native":false},{"column":23,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mongoose\\lib\\document.js","function":"model.Document.$__validate","line":2491,"method":"$__validate","native":false},{"column":33,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\kareem\\index.js","function":null,"line":370,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":78,"method":null,"native":false}]}
+info: ::1 - - [21/Jul/2022:17:47:10 +0000] "POST /api/v1/notes HTTP/1.1" 201 297 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:17:47:50 +0000] "GET /api/v1/notes/62d9911eee6fa254e0309d7c HTTP/1.1" 200 297 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:17:47:55 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 304 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:17:48:25 +0000] "GET /api/v1/notes HTTP/1.1" 200 304 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:17:48:31 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 304 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:17:49:14 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 304 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:17:49:42 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 304 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:17:49:57 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Jul/2022:17:50:54 +0000] "GET /api/v1/notes/62d9911eee6fa254e0309d7c HTTP/1.1" 200 297 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Jul/2022:02:34:36 +0000] "PUT /api/v1/notes/62d9911eee6fa254e0309d7c HTTP/1.1" 202 297 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Jul/2022:02:35:04 +0000] "PUT /api/v1/notes/62d9911eee6fa254e0309d7c/isarchive HTTP/1.1" 202 298 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Jul/2022:02:36:30 +0000] "PUT /api/v1/notes/62d9911eee6fa254e0309d7c/isarchive HTTP/1.1" 202 316 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Jul/2022:02:38:30 +0000] "PUT /api/v1/notes/62d9911eee6fa254e0309d7c/isTrash HTTP/1.1" 202 332 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Jul/2022:11:15:28 +0000] "PUT /api/v1/notes/62d9911eee6fa254e0309d7c HTTP/1.1" 202 304 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:14:01:56 +0000] "POST /api/v1/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:14:03:08 +0000] "POST /api/v1/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:14:03:34 +0000] "POST /api/v1/users HTTP/1.1" 201 322 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:14:04:23 +0000] "POST /api/v1/users/email HTTP/1.1" 200 58 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:14:05:05 +0000] "GET /api/v1/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5laGF5YXk0ODdAYWx0cGFuby5jb20iLCJfaWQiOiI2MmRlYTJiNjRlZWQwYzJhYjg0MzZhYzMiLCJpYXQiOjE2NTg3NTc4NTd9.mhHmRkwozofCw8x1p_2NY7AR0FzdbAB-jgsMGxD2-fc HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Jul/2022:14:05:05 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Jul/2022:14:19:26 +0000] "POST /api/v1/users/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5laGF5YXk0ODdAYWx0cGFuby5jb20iLCJfaWQiOiI2MmRlYTJiNjRlZWQwYzJhYjg0MzZhYzMiLCJpYXQiOjE2NTg3NTc4NTd9.mhHmRkwozofCw8x1p_2NY7AR0FzdbAB-jgsMGxD2-fc HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:14:21:46 +0000] "POST /api/v1/users/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5laGF5YXk0ODdAYWx0cGFuby5jb20iLCJfaWQiOiI2MmRlYTJiNjRlZWQwYzJhYjg0MzZhYzMiLCJpYXQiOjE2NTg3NTc4NTd9.mhHmRkwozofCw8x1p_2NY7AR0FzdbAB-jgsMGxD2-fc HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:14:25:15 +0000] "POST /api/v1/users/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5laGF5YXk0ODdAYWx0cGFuby5jb20iLCJfaWQiOiI2MmRlYTJiNjRlZWQwYzJhYjg0MzZhYzMiLCJpYXQiOjE2NTg3NTc4NTd9.mhHmRkwozofCw8x1p_2NY7AR0FzdbAB-jgsMGxD2-fc HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:14:27:14 +0000] "POST /api/v1/users/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5laGF5YXk0ODdAYWx0cGFuby5jb20iLCJfaWQiOiI2MmRlYTJiNjRlZWQwYzJhYjg0MzZhYzMiLCJpYXQiOjE2NTg3NTc4NTd9.mhHmRkwozofCw8x1p_2NY7AR0FzdbAB-jgsMGxD2-fc HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:14:28:21 +0000] "POST /api/v1/users/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5laGF5YXk0ODdAYWx0cGFuby5jb20iLCJfaWQiOiI2MmRlYTJiNjRlZWQwYzJhYjg0MzZhYzMiLCJpYXQiOjE2NTg3NTc4NTd9.mhHmRkwozofCw8x1p_2NY7AR0FzdbAB-jgsMGxD2-fc HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:14:32:09 +0000] "POST /api/v1/users/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5laGF5YXk0ODdAYWx0cGFuby5jb20iLCJfaWQiOiI2MmRlYTJiNjRlZWQwYzJhYjg0MzZhYzMiLCJpYXQiOjE2NTg3NTc4NTd9.mhHmRkwozofCw8x1p_2NY7AR0FzdbAB-jgsMGxD2-fc HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:14:34:58 +0000] "POST /api/v1/users/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5laGF5YXk0ODdAYWx0cGFuby5jb20iLCJfaWQiOiI2MmRlYTJiNjRlZWQwYzJhYjg0MzZhYzMiLCJpYXQiOjE2NTg3NTc4NTd9.mhHmRkwozofCw8x1p_2NY7AR0FzdbAB-jgsMGxD2-fc HTTP/1.1" 404 30 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:14:36:08 +0000] "POST /api/v1/users/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5laGF5YXk0ODdAYWx0cGFuby5jb20iLCJfaWQiOiI2MmRlYTJiNjRlZWQwYzJhYjg0MzZhYzMiLCJpYXQiOjE2NTg3NTc4NTd9.mhHmRkwozofCw8x1p_2NY7AR0FzdbAB-jgsMGxD2-fc HTTP/1.1" 200 324 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:16:51:40 +0000] "POST /api/v1/users HTTP/1.1" 400 67 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:16:52:32 +0000] "POST /api/v1/users HTTP/1.1" 400 97 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:16:53:54 +0000] "POST /api/v1/users HTTP/1.1" 201 318 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:16:55:38 +0000] "POST /api/v1/users HTTP/1.1" 400 155 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:16:56:23 +0000] "POST /api/v1/users HTTP/1.1" 400 155 "-" "PostmanRuntime/7.29.2"
+
+=======
 info: ::1 - - [26/Jul/2022:07:09:36 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
 
 info: ::1 - - [26/Jul/2022:07:10:17 +0000] "GET /api/v1/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtpcmFubWNlaHNuQGdtYWlsLmNvbSIsIl9pZCI6IjYyZGY1NGExYWIzN2EzMzcyODkyNGZjNSIsImlhdCI6MTY1ODgxOTM3MX0.uMtj3mBmDHKYjLvA0sf6svu-sbho--6EehgSHUNe6LA HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
@@ -100,3 +358,4 @@ ReferenceError: noteRoute is not defined
     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
     at node:internal/main/run_main_module:17:47 {"date":"Tue Jul 26 2022 13:19:04 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":155519},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19025300,"external":51729449,"heapTotal":116105216,"heapUsed":90012376,"rss":151449600},"pid":5296,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: noteRoute is not defined\n    at routes (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\routes\\/index.js:15:24)\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":24,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\routes\\/index.js","function":"routes","line":15,"method":null,"native":false},{"column":32,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+>>>>>>> UserRegistrationAndLogin

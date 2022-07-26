@@ -1,0 +1,38 @@
+info: ::1 - - [25/Jul/2022:14:01:56 +0000] "POST /api/v1/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:14:03:08 +0000] "POST /api/v1/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:14:03:34 +0000] "POST /api/v1/users HTTP/1.1" 201 322 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:14:04:23 +0000] "POST /api/v1/users/email HTTP/1.1" 200 58 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:14:05:05 +0000] "GET /api/v1/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5laGF5YXk0ODdAYWx0cGFuby5jb20iLCJfaWQiOiI2MmRlYTJiNjRlZWQwYzJhYjg0MzZhYzMiLCJpYXQiOjE2NTg3NTc4NTd9.mhHmRkwozofCw8x1p_2NY7AR0FzdbAB-jgsMGxD2-fc HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Jul/2022:14:05:05 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Jul/2022:14:19:26 +0000] "POST /api/v1/users/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5laGF5YXk0ODdAYWx0cGFuby5jb20iLCJfaWQiOiI2MmRlYTJiNjRlZWQwYzJhYjg0MzZhYzMiLCJpYXQiOjE2NTg3NTc4NTd9.mhHmRkwozofCw8x1p_2NY7AR0FzdbAB-jgsMGxD2-fc HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:14:21:46 +0000] "POST /api/v1/users/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5laGF5YXk0ODdAYWx0cGFuby5jb20iLCJfaWQiOiI2MmRlYTJiNjRlZWQwYzJhYjg0MzZhYzMiLCJpYXQiOjE2NTg3NTc4NTd9.mhHmRkwozofCw8x1p_2NY7AR0FzdbAB-jgsMGxD2-fc HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:14:25:15 +0000] "POST /api/v1/users/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5laGF5YXk0ODdAYWx0cGFuby5jb20iLCJfaWQiOiI2MmRlYTJiNjRlZWQwYzJhYjg0MzZhYzMiLCJpYXQiOjE2NTg3NTc4NTd9.mhHmRkwozofCw8x1p_2NY7AR0FzdbAB-jgsMGxD2-fc HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:14:27:14 +0000] "POST /api/v1/users/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5laGF5YXk0ODdAYWx0cGFuby5jb20iLCJfaWQiOiI2MmRlYTJiNjRlZWQwYzJhYjg0MzZhYzMiLCJpYXQiOjE2NTg3NTc4NTd9.mhHmRkwozofCw8x1p_2NY7AR0FzdbAB-jgsMGxD2-fc HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:14:28:21 +0000] "POST /api/v1/users/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5laGF5YXk0ODdAYWx0cGFuby5jb20iLCJfaWQiOiI2MmRlYTJiNjRlZWQwYzJhYjg0MzZhYzMiLCJpYXQiOjE2NTg3NTc4NTd9.mhHmRkwozofCw8x1p_2NY7AR0FzdbAB-jgsMGxD2-fc HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:14:32:09 +0000] "POST /api/v1/users/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5laGF5YXk0ODdAYWx0cGFuby5jb20iLCJfaWQiOiI2MmRlYTJiNjRlZWQwYzJhYjg0MzZhYzMiLCJpYXQiOjE2NTg3NTc4NTd9.mhHmRkwozofCw8x1p_2NY7AR0FzdbAB-jgsMGxD2-fc HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:14:34:58 +0000] "POST /api/v1/users/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5laGF5YXk0ODdAYWx0cGFuby5jb20iLCJfaWQiOiI2MmRlYTJiNjRlZWQwYzJhYjg0MzZhYzMiLCJpYXQiOjE2NTg3NTc4NTd9.mhHmRkwozofCw8x1p_2NY7AR0FzdbAB-jgsMGxD2-fc HTTP/1.1" 404 30 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:14:36:08 +0000] "POST /api/v1/users/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5laGF5YXk0ODdAYWx0cGFuby5jb20iLCJfaWQiOiI2MmRlYTJiNjRlZWQwYzJhYjg0MzZhYzMiLCJpYXQiOjE2NTg3NTc4NTd9.mhHmRkwozofCw8x1p_2NY7AR0FzdbAB-jgsMGxD2-fc HTTP/1.1" 200 324 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:16:51:40 +0000] "POST /api/v1/users HTTP/1.1" 400 67 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:16:52:32 +0000] "POST /api/v1/users HTTP/1.1" 400 97 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:16:53:54 +0000] "POST /api/v1/users HTTP/1.1" 201 318 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:16:55:38 +0000] "POST /api/v1/users HTTP/1.1" 400 155 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [25/Jul/2022:16:56:23 +0000] "POST /api/v1/users HTTP/1.1" 400 155 "-" "PostmanRuntime/7.29.2"
+

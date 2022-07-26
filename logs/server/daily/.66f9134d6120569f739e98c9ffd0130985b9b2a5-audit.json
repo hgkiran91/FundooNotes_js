@@ -16,9 +16,35 @@
             "hash": "5ad5006cc9135eb09660eb80071eb21316155a75b05a13c44df292a132ce21e6"
         },
         {
+<<<<<<< HEAD
+            "date": 1658323485997,
+            "name": "logs\\server\\daily\\2022-07-20.log",
+            "hash": "8cf2dc6e51ab7d2f35410c570ef87797c1569893f1e4fa7b2529b1afc3608f72"
+        },
+        {
+            "date": 1658368075276,
+            "name": "logs\\server\\daily\\2022-07-21.log",
+            "hash": "cff4f7dd76d6ce046e1795c703996e16340632f31dd98c84d8211c51d3840ad5"
+        },
+        {
+            "date": 1658457384351,
+            "name": "logs\\server\\daily\\2022-07-22.log",
+            "hash": "bc15cf51ab9bb104f091c0be81a5cfcaabb1413dc66e2a0f193b56cb0ed136a1"
+        },
+        {
+            "date": 1658574582248,
+            "name": "logs\\server\\daily\\2022-07-23.log",
+            "hash": "22dd688b62d0dd69208082bb97b5d6ad2c0078de55bfe165ea6c2b16d330cc41"
+        },
+        {
+            "date": 1658757222556,
+            "name": "logs\\server\\daily\\2022-07-25.log",
+            "hash": "3c97e7257e94bd2f2aa823a9a33fe46381c9d71222ec4516b10939d0faa5eebb"
+=======
             "date": 1658819235454,
             "name": "logs\\server\\daily\\2022-07-26.log",
             "hash": "8fb340855b158c2cb7a28ce70e00d80053132f928d871efbeb4936eebd250040"
+>>>>>>> UserRegistrationAndLogin
         }
     ],
     "hashType": "sha256"

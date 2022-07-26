@@ -1,2 +1,47 @@
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-20T04:07:15.799Z"}
 info: Connected to the database. {"timestamp":"2022-07-20T04:07:15.877Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-20T13:24:46.090Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T13:24:46.128Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'addNote')
+    at _callee$ (C:\CFP_170\NodeJs\FundooNotes\src\controllers\/note.controller.js:15:40)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addNote (C:\CFP_170\NodeJs\FundooNotes\src\controllers\/note.controller.js:12:21)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-20T13:28:11.539Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-20T13:53:14.448Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T13:53:14.508Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-20T13:57:43.767Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T13:57:43.819Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-20T14:09:26.598Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T14:09:26.661Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-20T14:21:51.463Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T14:21:51.510Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-20T14:26:13.644Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T14:26:13.703Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-20T17:08:35.801Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T17:08:35.877Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-20T17:11:44.837Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T17:11:44.933Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-20T17:15:45.617Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T17:15:45.678Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-20T17:28:41.213Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T17:28:41.275Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-20T17:31:37.307Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T17:31:37.373Z"}
