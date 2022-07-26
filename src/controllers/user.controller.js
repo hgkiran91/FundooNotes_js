@@ -102,3 +102,51 @@ export const userRegistration = async (req, res, next) => {
 //   }
 // };
 
+<<<<<<< HEAD
+=======
+
+/**
+ * Controller for forgot password
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const forgotPassword = async (req, res, next) => {
+  try {
+    const data = await UserService.forgotPassword(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: [],
+      message: 'email sent successfully'
+    });
+  } catch (error) {
+    res.status(HttpStatus.NOT_FOUND).json({
+      code: HttpStatus.NOT_FOUND,
+      message: 'email not found'
+    });
+  }
+};
+
+/**
+ * Controller for reset password
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+ export const resetPassword = async (req, res, next) => {
+  try {
+    // console.log("Request body",req.body);
+    const data = await UserService.resetPassword(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'password reset successfully'
+    });
+  } catch (error) {
+    res.status(HttpStatus.NOT_FOUND).json({
+      code: HttpStatus.NOT_FOUND,
+      message: 'Error'
+    });
+  }
+};
+>>>>>>> UserRegistrationAndLogin

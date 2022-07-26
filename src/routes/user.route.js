@@ -20,5 +20,13 @@ router.post('', newUserValidator, userController.userRegistration);
 // //route to delete a single user by their user id
 // router.delete('/:_id', userController.deleteUser);
 
+<<<<<<< HEAD
+=======
+// route for forgot password
+router.post('/forgotpassword', userController.forgotPassword)
+
+// route for reset password
+router.post('/:token', resetAuth, userController.resetPassword);
+>>>>>>> UserRegistrationAndLogin
 
 export default router;
