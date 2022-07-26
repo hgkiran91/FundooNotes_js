@@ -11,6 +11,7 @@ router.post('/login', userController.userLogin);
 //route to create a new user
 router.post('', newUserValidator, userController.userRegistration);
 
+<<<<<<< HEAD
 // //route to get a single user by their user id
 // router.get('/:_id', userAuth, userController.getUser);
 
@@ -22,6 +23,8 @@ router.post('', newUserValidator, userController.userRegistration);
 
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> UserRegistrationAndLogin
 // route for forgot password
 router.post('/forgotpassword', userController.forgotPassword)
 

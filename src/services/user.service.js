@@ -3,6 +3,17 @@ import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import { mailSender } from '../utils/mailSender';
 
+//create new user
+export const UserRegistration = async (body) => {
+  console.log("Before hassing body:",body);
+  const saltRounds = 10;
+  const hashPassword = await bcrypt.hash(body.password, saltRounds);
+  body.password = hashPassword;
+  console.log("After hassing body:",body);
+  const data = await User.create(body);
+  return data;
+};
+
 //get all users
 export const userLogin = async (body) => {
   const data = await User.findOne({ email: body.email });
@@ -21,6 +32,7 @@ export const userLogin = async (body) => {
   }
 };
 
+<<<<<<< HEAD
 //create new user
 export const UserRegistration = async (body) => {
   console.log("Before hassing body:", body);
@@ -57,6 +69,8 @@ export const UserRegistration = async (body) => {
 //   const data = await User.findById(id);
 //   return data;
 // };
+=======
+>>>>>>> UserRegistrationAndLogin
 
 <<<<<<< HEAD
 =======
