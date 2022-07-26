@@ -30,9 +30,6 @@ export const userAuth = async (req, res, next) => {
   }
 };
 
-<<<<<<< HEAD
-
-=======
 /**
  * Middleware to authenticate if user has a valid Authorization token
  * Authorization: Bearer <token>
@@ -59,4 +56,3 @@ export const resetAuth = async (req, res, next) => {
     next(error);
   }
 };
->>>>>>> UserRegistrationAndLogin
