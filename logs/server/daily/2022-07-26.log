@@ -1,0 +1,40 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-26T02:28:24.423Z"}
+info: Connected to the database. {"timestamp":"2022-07-26T02:28:24.506Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-26T02:40:54.527Z"}
+info: Connected to the database. {"timestamp":"2022-07-26T02:40:54.661Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-26T07:07:15.546Z"}
+info: Connected to the database. {"timestamp":"2022-07-26T07:07:15.584Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-26T07:31:55.422Z"}
+info: Connected to the database. {"timestamp":"2022-07-26T07:31:55.467Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-26T07:34:00.040Z"}
+info: Connected to the database. {"timestamp":"2022-07-26T07:34:00.081Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\CFP_170\NodeJs\FundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\CFP_170\NodeJs\FundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee2$ (C:\CFP_170\NodeJs\FundooNotes\src\middlewares\/auth.middleware.js:43:30)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at resetAuth (C:\CFP_170\NodeJs\FundooNotes\src\middlewares\/auth.middleware.js:33:23)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/users/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtpcmFubWNlaHNuQGdtYWlsLmNvbSIsIl9pZCI6IjYyZGY1NGExYWIzN2EzMzcyODkyNGZjNSIsImlhdCI6MTY1ODgyMDg0NX0.ldDtRxvQ-CZEqJM8ZEeLwE6DY71mujctQ9RNMQgmOWc 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-26T07:34:57.703Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-26T07:37:06.666Z"}
+info: Connected to the database. {"timestamp":"2022-07-26T07:37:06.696Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-26T07:42:22.560Z"}
+info: Connected to the database. {"timestamp":"2022-07-26T07:42:22.622Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-26T07:44:17.465Z"}
+info: Connected to the database. {"timestamp":"2022-07-26T07:44:17.508Z"}
+info: Connected to the database. {"timestamp":"2022-07-26T07:49:04.585Z"}

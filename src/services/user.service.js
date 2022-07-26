@@ -1,6 +1,7 @@
 import User from '../models/user.model';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
+import { mailSender } from '../utils/mailSender';
 
 //get all users
 export const userLogin = async (body) => {
@@ -56,3 +57,25 @@ export const UserRegistration = async (body) => {
 //   const data = await User.findById(id);
 //   return data;
 // };
+
+// forgot password
+export const forgotPassword = async (body) => {
+  const data = await User.findOne({email: body.email})
+  if( data != null){
+    const token = jwt.sign({email: data.email, _id: data._id}, process.env.FORGOT_KEY)
+    const result = await mailSender(data.email, token)
+    return result;
+  }else{
+    throw new Error('User does not exist')
+  }
+}
+
+// reset password
+export const resetPassword = async (body) => {
+  const saltRounds = 10;
+  const hash = await bcrypt.hash(body.password, saltRounds);
+  console.log("Inside Service",body.password);
+  body.password = hash;
+  const data = User.findOneAndUpdate({email: body.email}, {password: body.password}, {new:true});
+  return data;
+}

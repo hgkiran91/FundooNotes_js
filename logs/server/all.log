@@ -140,3 +140,56 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-07-19T03:19:02.546Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-26T07:07:15.546Z"}
+info: Connected to the database. {"timestamp":"2022-07-26T07:07:15.584Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-26T07:31:55.422Z"}
+info: Connected to the database. {"timestamp":"2022-07-26T07:31:55.467Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-26T07:34:00.040Z"}
+info: Connected to the database. {"timestamp":"2022-07-26T07:34:00.081Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\CFP_170\NodeJs\FundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\CFP_170\NodeJs\FundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee2$ (C:\CFP_170\NodeJs\FundooNotes\src\middlewares\/auth.middleware.js:43:30)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at resetAuth (C:\CFP_170\NodeJs\FundooNotes\src\middlewares\/auth.middleware.js:33:23)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/users/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtpcmFubWNlaHNuQGdtYWlsLmNvbSIsIl9pZCI6IjYyZGY1NGExYWIzN2EzMzcyODkyNGZjNSIsImlhdCI6MTY1ODgyMDg0NX0.ldDtRxvQ-CZEqJM8ZEeLwE6DY71mujctQ9RNMQgmOWc 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-26T07:34:57.703Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-26T07:37:06.666Z"}
+info: Connected to the database. {"timestamp":"2022-07-26T07:37:06.696Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-26T07:42:22.560Z"}
+info: Connected to the database. {"timestamp":"2022-07-26T07:42:22.622Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-26T07:44:17.465Z"}
+info: Connected to the database. {"timestamp":"2022-07-26T07:44:17.508Z"}
+error: uncaughtException: noteRoute is not defined
+ReferenceError: noteRoute is not defined
+    at routes (C:\CFP_170\NodeJs\FundooNotes\src\routes\/index.js:15:24)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Tue Jul 26 2022 13:19:04 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":155519},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19014340,"external":51718449,"heapTotal":116105216,"heapUsed":89911264,"rss":150736896},"pid":5296,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: noteRoute is not defined\n    at routes (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\routes\\/index.js:15:24)\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-07-26T07:49:04.493Z","trace":[{"column":24,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\routes\\/index.js","function":"routes","line":15,"method":null,"native":false},{"column":32,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
