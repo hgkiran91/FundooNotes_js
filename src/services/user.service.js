@@ -52,8 +52,4 @@ export const resetPassword = async (body) => {
   body.password = hash;
   const data = User.findOneAndUpdate({email: body.email}, {password: body.password}, {new:true});
   return data;
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> UserRegistrationAndLogin
+};
