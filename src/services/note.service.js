@@ -43,8 +43,4 @@ export const trashNote = async (_id, body) => {
 // delete single note
 export const deleteNote = async (_id, UserID) => {
     await Note.findByIdAndDelete({ _id, UserID: UserID});
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> UserRegistrationAndLogin
+};

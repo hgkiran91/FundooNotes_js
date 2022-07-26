@@ -136,18 +136,9 @@ export const deleteNote = async (req, res, next) => {
         res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
             data: [],
-<<<<<<< HEAD
-            message: 'User deleted successfully'
-=======
-            message: 'Note deleted successfully'
->>>>>>> UserRegistrationAndLogin
+            message: 'Note deleted successfully',
         });
     } catch (error) {
         next(error);
     }
-<<<<<<< HEAD
-};
-
-=======
-};
->>>>>>> UserRegistrationAndLogin
+}
