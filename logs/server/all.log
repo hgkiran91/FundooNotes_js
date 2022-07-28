@@ -583,3 +583,353 @@ info: Connected to the database. {"timestamp":"2022-07-26T11:48:04.331Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-26T11:48:17.539Z"}
 info: Connected to the database. {"timestamp":"2022-07-26T11:48:17.585Z"}
 >>>>>>> UserRegistrationAndLogin
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-26T13:50:11.033Z"}
+info: Connected to the database. {"timestamp":"2022-07-26T13:50:11.085Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-26T14:09:51.752Z"}
+info: Connected to the database. {"timestamp":"2022-07-26T14:09:51.794Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-26T14:19:29.193Z"}
+info: Connected to the database. {"timestamp":"2022-07-26T14:19:29.231Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-26T14:35:46.497Z"}
+info: Connected to the database. {"timestamp":"2022-07-26T14:35:46.570Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-26T17:22:04.836Z"}
+info: Connected to the database. {"timestamp":"2022-07-26T17:22:04.880Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-26T17:53:31.409Z"}
+info: Connected to the database. {"timestamp":"2022-07-26T17:53:31.446Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-26T18:00:40.384Z"}
+info: Connected to the database. {"timestamp":"2022-07-26T18:00:40.428Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\CFP_170\NodeJs\FundooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee2$ (C:\CFP_170\NodeJs\FundooNotes\src\middlewares\/auth.middleware.js:51:30)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at resetAuth (C:\CFP_170\NodeJs\FundooNotes\src\middlewares\/auth.middleware.js:41:23)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-26T18:02:16.208Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-26T18:05:33.609Z"}
+info: Connected to the database. {"timestamp":"2022-07-26T18:05:33.660Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\CFP_170\NodeJs\FundooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee2$ (C:\CFP_170\NodeJs\FundooNotes\src\middlewares\/auth.middleware.js:51:30)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at resetAuth (C:\CFP_170\NodeJs\FundooNotes\src\middlewares\/auth.middleware.js:41:23)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-26T18:06:40.209Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-27T02:05:19.211Z"}
+info: Connected to the database. {"timestamp":"2022-07-27T02:05:19.270Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\CFP_170\NodeJs\FundooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee2$ (C:\CFP_170\NodeJs\FundooNotes\src\middlewares\/auth.middleware.js:51:30)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at resetAuth (C:\CFP_170\NodeJs\FundooNotes\src\middlewares\/auth.middleware.js:41:23)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-27T02:06:33.714Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-27T02:09:31.969Z"}
+info: Connected to the database. {"timestamp":"2022-07-27T02:09:32.034Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-27T02:09:52.095Z"}
+info: Connected to the database. {"timestamp":"2022-07-27T02:09:52.124Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\CFP_170\NodeJs\FundooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee2$ (C:\CFP_170\NodeJs\FundooNotes\src\middlewares\/auth.middleware.js:51:30)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at resetAuth (C:\CFP_170\NodeJs\FundooNotes\src\middlewares\/auth.middleware.js:41:23)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/users/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-27T02:10:42.282Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-27T02:38:55.327Z"}
+info: Connected to the database. {"timestamp":"2022-07-27T02:38:55.443Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\CFP_170\NodeJs\FundooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee2$ (C:\CFP_170\NodeJs\FundooNotes\src\middlewares\/auth.middleware.js:51:30)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at resetAuth (C:\CFP_170\NodeJs\FundooNotes\src\middlewares\/auth.middleware.js:41:23)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/users/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-27T02:39:42.196Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-27T02:43:09.746Z"}
+info: Connected to the database. {"timestamp":"2022-07-27T02:43:09.811Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-07-27T07:46:50.214Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-27T07:50:45.985Z"}
+info: Connected to the database. {"timestamp":"2022-07-27T07:50:46.036Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-07-27T07:51:20.143Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-27T08:10:00.745Z"}
+info: Connected to the database. {"timestamp":"2022-07-27T08:10:00.789Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-27T10:38:13.695Z"}
+info: Connected to the database. {"timestamp":"2022-07-27T10:38:13.745Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-07-27T11:47:40.336Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/ 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-07-27T11:49:56.314Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-27T11:50:41.931Z"}
+info: Connected to the database. {"timestamp":"2022-07-27T11:50:41.981Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/ 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-07-27T11:50:49.347Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/ 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-07-27T11:50:57.635Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-07-27T11:51:23.220Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-27T11:53:56.212Z"}
+info: Connected to the database. {"timestamp":"2022-07-27T11:53:56.242Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-07-27T11:54:03.839Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/ 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-07-27T11:54:20.207Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-27T11:59:25.148Z"}
+info: Connected to the database. {"timestamp":"2022-07-27T11:59:25.201Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-27T12:03:16.144Z"}
+info: Connected to the database. {"timestamp":"2022-07-27T12:03:16.184Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/%7B_id%7D 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-07-27T12:24:16.366Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\CFP_170\NodeJs\FundooNotes\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\CFP_170\NodeJs\FundooNotes\src\middlewares\/auth.middleware.js:24:28)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\CFP_170\NodeJs\FundooNotes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/notes/%7B_id%7D 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-27T12:25:08.242Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/%7B_id%7D 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-07-27T12:42:14.788Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\CFP_170\NodeJs\FundooNotes\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\CFP_170\NodeJs\FundooNotes\src\middlewares\/auth.middleware.js:24:28)
+    at tryCatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\CFP_170\NodeJs\FundooNotes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/notes/%7B_id%7D 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-27T12:43:03.049Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-27T15:55:40.292Z"}
+info: Connected to the database. {"timestamp":"2022-07-27T15:55:40.330Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '{_id}', UserId: 'manu@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/%7B_id%7D 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-27T16:24:38.175Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-27T16:52:35.096Z"}
+info: Connected to the database. {"timestamp":"2022-07-27T16:52:35.154Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-27T16:57:17.244Z"}
+info: Connected to the database. {"timestamp":"2022-07-27T16:57:17.297Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-27T17:00:10.245Z"}
+info: Connected to the database. {"timestamp":"2022-07-27T17:00:10.291Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-27T17:44:59.606Z"}
+info: Connected to the database. {"timestamp":"2022-07-27T17:44:59.644Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '{_id}', UserId: 'manu@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/%7B_id%7D 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-27T17:46:08.429Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-27T17:47:30.223Z"}
+info: Connected to the database. {"timestamp":"2022-07-27T17:47:30.261Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '{_id}', UserId: 'pujith008@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/%7B_id%7D 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-27T17:48:42.802Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-28T02:27:46.342Z"}
+info: Connected to the database. {"timestamp":"2022-07-28T02:27:46.392Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '{_id}', UserId: 'pujith008@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/%7B_id%7D 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-28T02:28:46.420Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-28T05:30:58.827Z"}
+info: Connected to the database. {"timestamp":"2022-07-28T05:30:58.877Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-28T07:09:21.966Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\tests\integration\/user.test.js:34:40)
+    at Test.assert (C:\CFP_170\NodeJs\FundooNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\CFP_170\NodeJs\FundooNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Jul 28 2022 12:39:22 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\tests\\integration\\/user.test.js:34:40)\n    at Test.assert (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":325935},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18911938,"external":28157820,"heapTotal":161492992,"heapUsed":129175032,"rss":196648960},"pid":8556,"uid":null,"version":"v16.15.1"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\tests\\integration\\/user.test.js:34:40)\n    at Test.assert (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-07-28T07:09:22.103Z","trace":[{"column":40,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\tests\\integration\\/user.test.js","function":null,"line":34,"method":null,"native":false},{"column":6,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-28T07:14:36.603Z"}
+info: Connected to the database. {"timestamp":"2022-07-28T07:14:36.642Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-28T08:21:14.056Z"}
+info: Connected to the database. {"timestamp":"2022-07-28T08:21:14.095Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-28T08:22:35.262Z"}
+info: Connected to the database. {"timestamp":"2022-07-28T08:22:35.314Z"}

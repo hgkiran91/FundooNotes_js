@@ -26,7 +26,10 @@ export const userAuth = async (req, res, next) => {
     req.body.UserID = user.email;
     next();
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.UNAUTHORIZED).json({
+      code: HttpStatus.UNAUTHORIZED,
+      message: `${error}`
+    });
   }
 };
 
@@ -53,6 +56,9 @@ export const resetAuth = async (req, res, next) => {
       req.body.email = user.email;
       next();
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.UNAUTHORIZED).json({
+      code: HttpStatus.UNAUTHORIZED,
+      message: `${error}`
+    });
   }
 };

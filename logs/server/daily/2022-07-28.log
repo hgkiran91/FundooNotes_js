@@ -1,0 +1,21 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-28T02:27:46.342Z"}
+info: Connected to the database. {"timestamp":"2022-07-28T02:27:46.392Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '{_id}', UserId: 'pujith008@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/%7B_id%7D 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-28T02:28:46.420Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-28T05:30:58.827Z"}
+info: Connected to the database. {"timestamp":"2022-07-28T05:30:58.877Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-28T07:09:21.966Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-28T07:14:36.603Z"}
+info: Connected to the database. {"timestamp":"2022-07-28T07:14:36.642Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-28T08:21:14.056Z"}
+info: Connected to the database. {"timestamp":"2022-07-28T08:21:14.095Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-28T08:22:35.262Z"}
+info: Connected to the database. {"timestamp":"2022-07-28T08:22:35.314Z"}

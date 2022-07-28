@@ -12,7 +12,7 @@ export const addNote = async (body) => {
 
 // get all note
 export const getAllNotes = async (body) => {
-    const data = await Note.find({UserID: body.UserID});
+    const data = await Note.find();
     return data;
 };
 

@@ -36,7 +36,7 @@ export const addNote = async (req, res, next) => {
 export const getAllNotes = async (req, res, next) => {
     try {
         // console.log("Body", body);
-        console.log("Request body for get all notes", req.body);
+        // console.log("Request body for get all notes", req.body);
         const data = await noteService.getAllNotes(req.body);
         res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
