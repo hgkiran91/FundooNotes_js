@@ -12,7 +12,7 @@ export const addNote = async (body) => {
 
 // get all note
 export const getAllNotes = async (body) => {
-    const data = await Note.find();
+    const data = await Note.find(body);
     return data;
 };
 

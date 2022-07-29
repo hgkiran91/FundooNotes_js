@@ -35,7 +35,7 @@ export const newNoteValidator = (req, res, next) => {
       message: `${error}`,
     });
   } else {
-    req.validatedBody = value;
+    // req.validatedBody = value;
     next();
   }
 };
