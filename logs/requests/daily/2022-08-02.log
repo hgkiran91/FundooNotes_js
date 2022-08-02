@@ -1,0 +1,46 @@
+info: ::1 - - [02/Aug/2022:11:42:26 +0000] "POST /api/v1/users HTTP/1.1" 400 96 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:11:42:30 +0000] "POST /api/v1/users HTTP/1.1" 201 328 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:11:48:29 +0000] "POST /api/v1/users HTTP/1.1" 201 323 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:11:53:21 +0000] "POST /api/v1/users HTTP/1.1" 201 323 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:12:01:12 +0000] "POST /api/v1/users HTTP/1.1" 201 331 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:12:07:47 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:12:16:35 +0000] "POST /api/v1/users HTTP/1.1" 201 322 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:12:24:11 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:12:26:51 +0000] "POST /api/v1/users HTTP/1.1" 201 325 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:14:25:02 +0000] "POST /api/v1/users HTTP/1.1" 400 67 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:14:25:11 +0000] "POST /api/v1/users/login HTTP/1.1" 200 281 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:14:26:07 +0000] "POST /api/v1/users HTTP/1.1" 400 67 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:14:26:54 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 58 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:14:27:14 +0000] "GET /api/v1/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZpY29yYTcxNjNAYWdyb2xpdmFuYS5jb20iLCJfaWQiOiI2MmU5MTgwYjg1ZmEyZjQ3ZDA2MTc2ZWYiLCJpYXQiOjE2NTk0NTA0MDh9.0uiyWRpd2FOQdwPxFRG9xLH47NF2f1TxtToPEjEixWA HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Aug/2022:14:27:15 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Aug/2022:14:28:24 +0000] "POST /api/v1/users/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZpY29yYTcxNjNAYWdyb2xpdmFuYS5jb20iLCJfaWQiOiI2MmU5MTgwYjg1ZmEyZjQ3ZDA2MTc2ZWYiLCJpYXQiOjE2NTk0NTA0MDh9.0uiyWRpd2FOQdwPxFRG9xLH47NF2f1TxtToPEjEixWA HTTP/1.1" 200 327 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:14:44:43 +0000] "POST /api/v1/users HTTP/1.1" 400 96 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:14:44:50 +0000] "POST /api/v1/users HTTP/1.1" 201 332 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:14:48:19 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:15:49:45 +0000] "POST /api/v1/users HTTP/1.1" 400 110 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:15:49:54 +0000] "POST /api/v1/users HTTP/1.1" 201 325 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:15:53:32 +0000] "POST /api/v1/users HTTP/1.1" 201 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:15:56:37 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "PostmanRuntime/7.29.2"
+

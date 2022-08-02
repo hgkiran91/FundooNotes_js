@@ -2239,3 +2239,154 @@ info: ::1 - - [29/Jul/2022:17:28:05 +0000] "GET /api-docs/swagger-ui-standalone-
 
 info: ::1 - - [29/Jul/2022:17:28:06 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
 
+info: ::1 - - [31/Jul/2022:08:28:27 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:08:28:50 +0000] "POST /api/v1/users/login HTTP/1.1" 401 40 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:08:29:25 +0000] "POST /api/v1/users/login HTTP/1.1" 401 40 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:08:30:22 +0000] "POST /api/v1/users/login HTTP/1.1" 401 40 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:08:31:40 +0000] "POST /api/v1/users/login HTTP/1.1" 401 40 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:08:32:17 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/Jul/2022:08:32:17 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/Jul/2022:08:32:17 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/Jul/2022:08:32:17 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/Jul/2022:08:32:17 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/Jul/2022:08:32:20 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/Jul/2022:08:32:20 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/Jul/2022:08:32:20 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/Jul/2022:08:32:20 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/Jul/2022:08:32:20 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/Jul/2022:08:32:20 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/Jul/2022:08:32:47 +0000] "POST /api/v1/users/login HTTP/1.1" 401 40 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/Jul/2022:08:36:03 +0000] "POST /api/v1/users/login HTTP/1.1" 401 40 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:08:36:09 +0000] "POST /api/v1/users HTTP/1.1" 201 320 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:08:36:34 +0000] "POST /api/v1/users/login HTTP/1.1" 401 40 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:08:46:26 +0000] "POST /api/v1/users/login HTTP/1.1" 200 270 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:08:46:41 +0000] "POST /api/v1/users/login HTTP/1.1" 200 270 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/Jul/2022:08:47:28 +0000] "POST /api/v1/users/login HTTP/1.1" 401 40 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:08:47:59 +0000] "POST /api/v1/users/login HTTP/1.1" 401 40 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:08:48:22 +0000] "POST /api/v1/users/login HTTP/1.1" 200 270 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:08:48:29 +0000] "POST /api/v1/users/login HTTP/1.1" 200 270 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:08:48:41 +0000] "POST /api/v1/users/login HTTP/1.1" 200 270 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:08:48:55 +0000] "POST /api/v1/users/login HTTP/1.1" 200 270 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:08:49:03 +0000] "POST /api/v1/users/login HTTP/1.1" 200 270 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:12:42:31 +0000] "POST /api/v1/users HTTP/1.1" 201 320 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: Unexpected token _ in JSON at position 4
+SyntaxError: Unexpected token _ in JSON at position 4
+    at JSON.parse (<anonymous>)
+    at C:\CFP_170\NodeJs\FundooNotes\src\utils\/rabbitmq.js:15:28
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\amqplib\lib\callback_model.js:44:29
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\amqplib\lib\callback_model.js:58:7
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\amqplib\lib\callback_model.js:73:5
+    at reply (C:\CFP_170\NodeJs\FundooNotes\node_modules\amqplib\lib\channel.js:105:16)
+    at Channel.C.accept (C:\CFP_170\NodeJs\FundooNotes\node_modules\amqplib\lib\channel.js:450:12)
+    at Connection.mainAccept [as accept] (C:\CFP_170\NodeJs\FundooNotes\node_modules\amqplib\lib\connection.js:63:33)
+    at Socket.go (C:\CFP_170\NodeJs\FundooNotes\node_modules\amqplib\lib\connection.js:486:48)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    at emitReadable_ (node:internal/streams/readable:578:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Mon Aug 01 2022 18:12:31 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":78987},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18378636,"external":20280216,"heapTotal":118190080,"heapUsed":112708680,"rss":154365952},"pid":18604,"uid":null,"version":"v16.15.1"},"stack":"SyntaxError: Unexpected token _ in JSON at position 4\n    at JSON.parse (<anonymous>)\n    at C:\\CFP_170\\NodeJs\\FundooNotes\\src\\utils\\/rabbitmq.js:15:28\n    at C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\callback_model.js:44:29\n    at C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\callback_model.js:58:7\n    at C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\callback_model.js:73:5\n    at reply (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\channel.js:105:16)\n    at Channel.C.accept (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\channel.js:450:12)\n    at Connection.mainAccept [as accept] (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (node:events:527:28)\n    at Socket.emit (node:domain:475:12)\n    at emitReadable_ (node:internal/streams/readable:578:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":null,"file":null,"function":"JSON.parse","line":null,"method":"parse","native":false},{"column":28,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\utils\\/rabbitmq.js","function":null,"line":15,"method":null,"native":false},{"column":29,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":44,"method":null,"native":false},{"column":7,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":58,"method":null,"native":false},{"column":5,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":73,"method":null,"native":false},{"column":16,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\channel.js","function":"reply","line":105,"method":null,"native":false},{"column":12,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":450,"method":"accept","native":false},{"column":33,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":527,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":475,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":578,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::1 - - [01/Aug/2022:16:37:48 +0000] "POST /api/v1/users HTTP/1.1" 201 329 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: email is not defined
+ReferenceError: email is not defined
+    at channel.consume.noAck (C:\CFP_170\NodeJs\FundooNotes\src\utils\/rabbitmq.js:45:36)
+    at Channel.BaseChannel.dispatchMessage (C:\CFP_170\NodeJs\FundooNotes\node_modules\amqplib\lib\channel.js:483:12)
+    at Channel.BaseChannel.handleDelivery (C:\CFP_170\NodeJs\FundooNotes\node_modules\amqplib\lib\channel.js:492:15)
+    at Channel.emit (node:events:527:28)
+    at Channel.emit (node:domain:475:12)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\amqplib\lib\channel.js:278:10
+    at Channel.content [as handleMessage] (C:\CFP_170\NodeJs\FundooNotes\node_modules\amqplib\lib\channel.js:331:9)
+    at Channel.C.acceptMessageFrame (C:\CFP_170\NodeJs\FundooNotes\node_modules\amqplib\lib\channel.js:246:31)
+    at Channel.C.accept (C:\CFP_170\NodeJs\FundooNotes\node_modules\amqplib\lib\channel.js:399:17)
+    at Connection.mainAccept [as accept] (C:\CFP_170\NodeJs\FundooNotes\node_modules\amqplib\lib\connection.js:63:33)
+    at Socket.go (C:\CFP_170\NodeJs\FundooNotes\node_modules\amqplib\lib\connection.js:486:48)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    at emitReadable_ (node:internal/streams/readable:578:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Mon Aug 01 2022 22:07:48 GMT+0530 (India Standard Time)","error":{"code":541},"exception":true,"os":{"loadavg":[0,0,0],"uptime":93104},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18380552,"external":20265637,"heapTotal":117665792,"heapUsed":112236512,"rss":154353664},"pid":8196,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: email is not defined\n    at channel.consume.noAck (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\utils\\/rabbitmq.js:45:36)\n    at Channel.BaseChannel.dispatchMessage (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\channel.js:483:12)\n    at Channel.BaseChannel.handleDelivery (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\channel.js:492:15)\n    at Channel.emit (node:events:527:28)\n    at Channel.emit (node:domain:475:12)\n    at C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\channel.js:278:10\n    at Channel.content [as handleMessage] (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\channel.js:331:9)\n    at Channel.C.acceptMessageFrame (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\channel.js:246:31)\n    at Channel.C.accept (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\channel.js:399:17)\n    at Connection.mainAccept [as accept] (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (node:events:527:28)\n    at Socket.emit (node:domain:475:12)\n    at emitReadable_ (node:internal/streams/readable:578:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":36,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\utils\\/rabbitmq.js","function":"channel.consume.noAck","line":45,"method":"noAck","native":false},{"column":12,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.BaseChannel.dispatchMessage","line":483,"method":"dispatchMessage","native":false},{"column":15,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.BaseChannel.handleDelivery","line":492,"method":"handleDelivery","native":false},{"column":28,"file":"node:events","function":"Channel.emit","line":527,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Channel.emit","line":475,"method":"emit","native":false},{"column":10,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\channel.js","function":null,"line":278,"method":null,"native":false},{"column":9,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.content [as handleMessage]","line":331,"method":"content [as handleMessage]","native":false},{"column":31,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.acceptMessageFrame","line":246,"method":"acceptMessageFrame","native":false},{"column":17,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":399,"method":"accept","native":false},{"column":33,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":527,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":475,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":578,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::1 - - [01/Aug/2022:16:42:39 +0000] "POST /api/v1/users HTTP/1.1" 201 323 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:17:36:49 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:11:42:26 +0000] "POST /api/v1/users HTTP/1.1" 400 96 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:11:42:30 +0000] "POST /api/v1/users HTTP/1.1" 201 328 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:11:48:29 +0000] "POST /api/v1/users HTTP/1.1" 201 323 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:11:53:21 +0000] "POST /api/v1/users HTTP/1.1" 201 323 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:12:01:12 +0000] "POST /api/v1/users HTTP/1.1" 201 331 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:12:07:47 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:12:16:35 +0000] "POST /api/v1/users HTTP/1.1" 201 322 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:12:24:11 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:12:26:51 +0000] "POST /api/v1/users HTTP/1.1" 201 325 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:14:25:02 +0000] "POST /api/v1/users HTTP/1.1" 400 67 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:14:25:11 +0000] "POST /api/v1/users/login HTTP/1.1" 200 281 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:14:26:07 +0000] "POST /api/v1/users HTTP/1.1" 400 67 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:14:26:54 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 58 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:14:27:14 +0000] "GET /api/v1/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZpY29yYTcxNjNAYWdyb2xpdmFuYS5jb20iLCJfaWQiOiI2MmU5MTgwYjg1ZmEyZjQ3ZDA2MTc2ZWYiLCJpYXQiOjE2NTk0NTA0MDh9.0uiyWRpd2FOQdwPxFRG9xLH47NF2f1TxtToPEjEixWA HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Aug/2022:14:27:15 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Aug/2022:14:28:24 +0000] "POST /api/v1/users/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZpY29yYTcxNjNAYWdyb2xpdmFuYS5jb20iLCJfaWQiOiI2MmU5MTgwYjg1ZmEyZjQ3ZDA2MTc2ZWYiLCJpYXQiOjE2NTk0NTA0MDh9.0uiyWRpd2FOQdwPxFRG9xLH47NF2f1TxtToPEjEixWA HTTP/1.1" 200 327 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:14:44:43 +0000] "POST /api/v1/users HTTP/1.1" 400 96 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:14:44:50 +0000] "POST /api/v1/users HTTP/1.1" 201 332 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:14:48:19 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:15:49:45 +0000] "POST /api/v1/users HTTP/1.1" 400 110 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:15:49:54 +0000] "POST /api/v1/users HTTP/1.1" 201 325 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:15:53:32 +0000] "POST /api/v1/users HTTP/1.1" 201 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:15:56:37 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+    at new NodeError (node:internal/errors:372:5)
+    at _write (node:internal/streams/writable:312:13)
+    at PassThrough.Writable.end (node:internal/streams/writable:609:17)
+    at Immediate.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\node_modules\nodemailer\lib\mime-node\index.js:977:46)
+    at processImmediate (node:internal/timers:466:21) {"date":"Tue Aug 02 2022 21:26:40 GMT+0530 (India Standard Time)","error":{"code":"ERR_INVALID_ARG_TYPE"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":177034},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18458123,"external":20328468,"heapTotal":118190080,"heapUsed":112587256,"rss":156594176},"pid":17064,"uid":null,"version":"v16.15.1"},"stack":"TypeError: The \"chunk\" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object\n    at new NodeError (node:internal/errors:372:5)\n    at _write (node:internal/streams/writable:312:13)\n    at PassThrough.Writable.end (node:internal/streams/writable:609:17)\n    at Immediate.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\nodemailer\\lib\\mime-node\\index.js:977:46)\n    at processImmediate (node:internal/timers:466:21)","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":372,"method":null,"native":false},{"column":13,"file":"node:internal/streams/writable","function":"_write","line":312,"method":null,"native":false},{"column":17,"file":"node:internal/streams/writable","function":"PassThrough.Writable.end","line":609,"method":"end","native":false},{"column":46,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\nodemailer\\lib\\mime-node\\index.js","function":null,"line":977,"method":null,"native":false},{"column":21,"file":"node:internal/timers","function":"processImmediate","line":466,"method":null,"native":false}]}
