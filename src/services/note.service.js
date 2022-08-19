@@ -1,18 +1,21 @@
 import Note from '../models/note.model';
-// import client from '../config/redis';
-// import { cli } from 'winston/lib/winston/config';
-import { resetAuth } from '../middlewares/auth.middleware';
-import { sendMail } from '../utils/mailSender';
+import { client } from '../config/redis';
 
 //create new note
 export const addNote = async (body) => {
     const data = await Note.create(body);
+    if(data){
+        await client.del('Notes')
+    }
     return data;
 };
 
 // get all note
 export const getAllNotes = async (body) => {
     const data = await Note.find(body);
+    if(data){
+        client.set('Notes', JSON.stringify(data));
+    }
     return data;
 };
 

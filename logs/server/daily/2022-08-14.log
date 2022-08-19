@@ -1,0 +1,53 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-14T10:46:57.922Z"}
+error: Could not connect to redis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)","syscall":"connect","timestamp":"2022-08-14T10:46:57.961Z"}
+info: Connected to the database. {"timestamp":"2022-08-14T10:46:58.011Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined', UserId: 'naveen@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/undefined 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-14T10:47:08.704Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined', UserID: 'naveen@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/undefined 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-14T10:47:08.977Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined', UserID: 'naveen@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/undefined 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-14T10:47:09.085Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined', UserID: undefined }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/undefined/isarchive 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-14T10:47:09.174Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined', UserID: undefined }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/undefined/isTrash 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-08-14T10:47:09.271Z"}

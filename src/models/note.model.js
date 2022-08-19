@@ -23,6 +23,9 @@ const userSchema = new Schema(
             type: Boolean,
             // required: true
         },
+        isPin: {
+            type: Boolean
+        },
         UserID: {
             type: String
         }

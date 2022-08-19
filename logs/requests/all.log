@@ -2392,3 +2392,123 @@ TypeError: The "chunk" argument must be of type string or an instance of Buffer 
     at processImmediate (node:internal/timers:466:21) {"date":"Tue Aug 02 2022 21:26:40 GMT+0530 (India Standard Time)","error":{"code":"ERR_INVALID_ARG_TYPE"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":177034},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18458123,"external":20328468,"heapTotal":118190080,"heapUsed":112587256,"rss":156594176},"pid":17064,"uid":null,"version":"v16.15.1"},"stack":"TypeError: The \"chunk\" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object\n    at new NodeError (node:internal/errors:372:5)\n    at _write (node:internal/streams/writable:312:13)\n    at PassThrough.Writable.end (node:internal/streams/writable:609:17)\n    at Immediate.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\nodemailer\\lib\\mime-node\\index.js:977:46)\n    at processImmediate (node:internal/timers:466:21)","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":372,"method":null,"native":false},{"column":13,"file":"node:internal/streams/writable","function":"_write","line":312,"method":null,"native":false},{"column":17,"file":"node:internal/streams/writable","function":"PassThrough.Writable.end","line":609,"method":"end","native":false},{"column":46,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\nodemailer\\lib\\mime-node\\index.js","function":null,"line":977,"method":null,"native":false},{"column":21,"file":"node:internal/timers","function":"processImmediate","line":466,"method":null,"native":false}]}
 info: ::1 - - [02/Aug/2022:15:59:10 +0000] "POST /api/v1/users HTTP/1.1" 201 330 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [03/Aug/2022:02:07:52 +0000] "POST /api/v1/users/login HTTP/1.1" 200 270 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [03/Aug/2022:02:08:43 +0000] "GET /api/v1/notes HTTP/1.1" 200 65 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [03/Aug/2022:02:10:15 +0000] "GET /api/v1/notes HTTP/1.1" 200 63 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [03/Aug/2022:02:10:26 +0000] "POST /api/v1/notes HTTP/1.1" 201 271 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [03/Aug/2022:02:10:42 +0000] "GET /api/v1/notes HTTP/1.1" 200 278 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [03/Aug/2022:02:11:17 +0000] "POST /api/v1/notes HTTP/1.1" 201 272 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [03/Aug/2022:02:11:32 +0000] "GET /api/v1/notes HTTP/1.1" 200 493 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [03/Aug/2022:02:11:42 +0000] "GET /api/v1/notes HTTP/1.1" 200 543 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [03/Aug/2022:02:21:35 +0000] "GET /api/v1/notes HTTP/1.1" 200 543 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [03/Aug/2022:02:24:56 +0000] "GET /api/v1/notes HTTP/1.1" 200 554 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [03/Aug/2022:02:53:45 +0000] "GET /api/v1/notes HTTP/1.1" 200 500 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [03/Aug/2022:02:54:16 +0000] "POST /api/v1/notes HTTP/1.1" 201 272 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [03/Aug/2022:02:54:29 +0000] "GET /api/v1/notes HTTP/1.1" 200 279 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [03/Aug/2022:02:54:45 +0000] "GET /api/v1/notes HTTP/1.1" 200 286 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [03/Aug/2022:02:56:33 +0000] "GET /api/v1/notes HTTP/1.1" 200 286 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [03/Aug/2022:02:57:05 +0000] "GET /api/v1/notes HTTP/1.1" 200 286 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:12:14:37 +0000] "POST /api/v1/users/login HTTP/1.1" 400 50 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:12:14:52 +0000] "POST /api/v1/users/login HTTP/1.1" 400 50 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:12:15:33 +0000] "POST /api/v1/users HTTP/1.1" 400 67 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:12:16:40 +0000] "POST /api/v1/users HTTP/1.1" 400 149 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:12:16:54 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:12:18:46 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:12:19:39 +0000] "POST /api/v1/users/login HTTP/1.1" 200 270 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:12:33:46 +0000] "POST /api/v1/notes HTTP/1.1" - - "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:12:35:11 +0000] "POST /api/v1/notes HTTP/1.1" - - "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:16:35:43 +0000] "POST /api/v1/notes HTTP/1.1" - - "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:04:51:11 +0000] "GET /api-docs HTTP/1.1" 301 183 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [10/Aug/2022:04:51:11 +0000] "GET /api-docs/ HTTP/1.1" 200 3103 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [10/Aug/2022:04:51:11 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11678 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [10/Aug/2022:04:51:11 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 144213 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [10/Aug/2022:04:51:11 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 339614 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [10/Aug/2022:04:51:11 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1097240 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [10/Aug/2022:04:51:12 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2022:15:40:41 +0000] "POST /api/v1/users HTTP/1.1" 201 322 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2022:15:40:41 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2022:15:40:41 +0000] "POST /api/v1/users/login HTTP/1.1" 200 270 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2022:15:40:41 +0000] "POST /api/v1/users/login HTTP/1.1" 400 50 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2022:15:40:46 +0000] "POST /api/v1/notes HTTP/1.1" 400 68 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2022:15:40:51 +0000] "GET /api/v1/notes/ HTTP/1.1" 401 40 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2022:15:40:51 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 500 170 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\tests\integration\/user.test.js:170:40)
+    at Test.assert (C:\CFP_170\NodeJs\FundooNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\CFP_170\NodeJs\FundooNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Aug 12 2022 21:10:51 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\tests\\integration\\/user.test.js:170:40)\n    at Test.assert (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":27746},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19454747,"external":44034807,"heapTotal":188518400,"heapUsed":162588776,"rss":227565568},"pid":8400,"uid":null,"version":"v16.15.1"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\tests\\integration\\/user.test.js:170:40)\n    at Test.assert (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\tests\\integration\\/user.test.js","function":null,"line":170,"method":null,"native":false},{"column":6,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [14/Aug/2022:10:46:58 +0000] "POST /api/v1/users HTTP/1.1" 201 322 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Aug/2022:10:46:58 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Aug/2022:10:46:58 +0000] "POST /api/v1/users/login HTTP/1.1" 200 270 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Aug/2022:10:46:58 +0000] "POST /api/v1/users/login HTTP/1.1" 400 50 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Aug/2022:10:47:03 +0000] "POST /api/v1/notes HTTP/1.1" 400 68 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Aug/2022:10:47:08 +0000] "GET /api/v1/notes/ HTTP/1.1" 401 40 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Aug/2022:10:47:08 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 500 170 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\tests\integration\/user.test.js:170:40)
+    at Test.assert (C:\CFP_170\NodeJs\FundooNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\CFP_170\NodeJs\FundooNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Sun Aug 14 2022 16:17:08 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\tests\\integration\\/user.test.js:170:40)\n    at Test.assert (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":182923},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19328190,"external":37342435,"heapTotal":170205184,"heapUsed":147128696,"rss":207347712},"pid":16100,"uid":null,"version":"v16.15.1"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\tests\\integration\\/user.test.js:170:40)\n    at Test.assert (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\tests\\integration\\/user.test.js","function":null,"line":170,"method":null,"native":false},{"column":6,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::1 - - [19/Aug/2022:07:32:49 +0000] "PUT /api/v1/notes/62e3f3c328c38c27d4a12da4/isPin HTTP/1.1" 202 290 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:07:33:08 +0000] "PUT /api/v1/notes/62e3f3c328c38c27d4a12da4/isPin HTTP/1.1" 202 290 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:07:33:29 +0000] "PUT /api/v1/notes/62e3f3c328c38c27d4a12da4/isTrash HTTP/1.1" 202 308 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:07:33:41 +0000] "PUT /api/v1/notes/62e3f3c328c38c27d4a12da4/isarchive HTTP/1.1" 202 327 "-" "PostmanRuntime/7.29.2"
+

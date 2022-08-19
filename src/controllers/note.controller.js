@@ -87,7 +87,7 @@ export const updateNote = async (req, res, next) => {
 };
 
 /**
- * Controller to update a user
+ * Controller to archive note
  * @param  {object} req - request object
  * @param {object} res - response object
  * @param {Function} next
@@ -106,7 +106,7 @@ export const archiveNote = async (req, res, next) => {
 };
 
 /**
-* Controller to update a user
+* Controller to trash note
 * @param  {object} req - request object
 * @param {object} res - response object
 * @param {Function} next

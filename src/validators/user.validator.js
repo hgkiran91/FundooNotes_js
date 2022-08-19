@@ -15,7 +15,7 @@ export const newUserValidator = (req, res, next) => {
       message: `${error}`,
     });
   } else {
-    req.validatedBody = value;
+    req.validateBody = value;
     next();
   }
 };
