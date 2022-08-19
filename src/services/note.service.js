@@ -43,6 +43,12 @@ export const trashNote = async (_id, body) => {
     return data;
 };
 
+// Pin single note
+export const pinNote = async (_id, body) => {
+    const data = await Note.findByIdAndUpdate({ _id: _id, UserID: body.UserID}, {isPin: true }, {new: true});
+    return data;
+};
+
 // delete single note
 export const deleteNote = async (_id, UserID) => {
     await Note.findByIdAndDelete({ _id, UserID: UserID});

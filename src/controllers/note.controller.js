@@ -125,6 +125,25 @@ export const trashNote = async (req, res, next) => {
 };
 
 /**
+* Controller to trash note
+* @param  {object} req - request object
+* @param {object} res - response object
+* @param {Function} next
+*/
+export const pinNote = async (req, res, next) => {
+    try {
+        const data = await noteService.pinNote(req.params._id, req.body.UserID);
+        res.status(HttpStatus.ACCEPTED).json({
+            code: HttpStatus.ACCEPTED,
+            data: data,
+            message: 'Note pinned successfully'
+        });
+    } catch (error) {
+        next(error);
+    }
+};
+
+/**
  * Controller to delete a user
  * @param  {object} req - request object
  * @param {object} res - response object
