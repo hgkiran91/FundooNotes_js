@@ -3068,3 +3068,7 @@ info: ::1 - - [24/Sep/2022:06:28:26 +0000] "POST /api/v1/users/forgotpassword HT
 
 info: ::1 - - [24/Sep/2022:14:07:52 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 401 57 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
 
+info: ::1 - - [24/Sep/2022:14:11:36 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 58 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Sep/2022:14:12:20 +0000] "GET /api/v1/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRha2VrZTk3OTJAcGxvbmVpeC5jb20iLCJfaWQiOiI2MzJlYTI5N2ZhYTliNzNkMmMxYzQyMWMiLCJpYXQiOjE2NjQwMjg2OTF9.8roysao02QVWHT_E0waqR9idmUTdYtH_p0lrK71SqZo HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
