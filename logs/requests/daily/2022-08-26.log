@@ -1,0 +1,28 @@
+info: ::1 - - [26/Aug/2022:13:30:26 +0000] "POST /api/v1/users/login HTTP/1.1" 200 270 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [26/Aug/2022:13:31:35 +0000] "POST /api/v1/notes HTTP/1.1" 201 269 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [26/Aug/2022:13:35:34 +0000] "POST /api/v1/notes/6308cb37b7dd731a746dbf81 HTTP/1.1" 201 294 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [26/Aug/2022:15:21:26 +0000] "DELETE /api/v1/notes/6308cb37b7dd731a746dbf81 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [26/Aug/2022:16:02:16 +0000] "POST /api/v1/notes HTTP/1.1" 201 269 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [26/Aug/2022:16:03:33 +0000] "POST /api/v1/notes/6308ee88fe5806410c34ebd8 HTTP/1.1" 201 294 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [26/Aug/2022:16:04:11 +0000] "DELETE /api/v1/notes/6308ee88fe5806410c34ebd8 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [26/Aug/2022:16:07:35 +0000] "POST /api/v1/notes HTTP/1.1" 201 271 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [26/Aug/2022:16:08:23 +0000] "POST /api/v1/notes/6308efc7a479c7423861faec HTTP/1.1" 201 296 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [26/Aug/2022:16:08:32 +0000] "DELETE /api/v1/notes/6308efc7a479c7423861faec HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [26/Aug/2022:16:48:57 +0000] "POST /api/v1/notes HTTP/1.1" 201 269 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [26/Aug/2022:16:49:40 +0000] "POST /api/v1/notes/6308f979ddf1022e1405f2b9 HTTP/1.1" 201 294 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [26/Aug/2022:16:49:54 +0000] "DELETE /api/v1/notes/6308f979ddf1022e1405f2b9/deleteLabel HTTP/1.1" 400 88 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [26/Aug/2022:17:09:56 +0000] "DELETE /api/v1/notes/6308f979ddf1022e1405f2b9/deleteLabel HTTP/1.1" 400 205 "-" "PostmanRuntime/7.29.2"
+

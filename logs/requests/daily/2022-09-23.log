@@ -1,0 +1,36 @@
+info: ::1 - - [23/Sep/2022:03:35:32 +0000] "POST /api/v1/users HTTP/1.1" 201 321 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Sep/2022:03:36:36 +0000] "POST /api/v1/users/login HTTP/1.1" 200 270 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Sep/2022:05:23:28 +0000] "POST /api/v1/users/login HTTP/1.1" 200 270 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Sep/2022:10:29:01 +0000] "POST /api/v1/users HTTP/1.1" 400 96 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Sep/2022:10:29:09 +0000] "POST /api/v1/users HTTP/1.1" 201 318 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Sep/2022:10:29:46 +0000] "POST /api/v1/users/login HTTP/1.1" 200 273 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Sep/2022:10:31:32 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 58 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Sep/2022:10:31:59 +0000] "GET /api/v1/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZvbW9oYTM5MTlAcGFoZWQuY29tIiwiX2lkIjoiNjMyZDhhNzUxZGRhMTYxZjIwMzk5MWI2IiwiaWF0IjoxNjYzOTI5MDg3fQ.HiMFxhFTQACVkCZIawiebBlZo_xuflkb7Un_M5pQhPg HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Sep/2022:10:31:59 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Sep/2022:10:35:48 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 58 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Sep/2022:10:46:01 +0000] "GET /api/v1/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZvbW9oYTM5MTlAcGFoZWQuY29tIiwiX2lkIjoiNjMyZDhhNzUxZGRhMTYxZjIwMzk5MWI2IiwiaWF0IjoxNjYzOTI5MzMyfQ.RrchuRe-8chSPm68Z2Sy9aRIsXga-deIOBvPn1Xsdio HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Sep/2022:12:54:34 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 58 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Sep/2022:12:55:49 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 58 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Sep/2022:12:59:31 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 58 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Sep/2022:13:00:50 +0000] "POST /api/v1/users HTTP/1.1" 201 321 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Sep/2022:13:01:10 +0000] "POST /api/v1/users/login HTTP/1.1" 200 275 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Sep/2022:13:04:02 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 58 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Sep/2022:13:05:04 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 58 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+

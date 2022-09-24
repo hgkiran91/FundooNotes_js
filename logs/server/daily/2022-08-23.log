@@ -1,0 +1,143 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-23T02:28:25.780Z"}
+info: Connected to the redid database. {"timestamp":"2022-08-23T02:28:25.830Z"}
+info: Connected to the database. {"timestamp":"2022-08-23T02:28:25.856Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-23T14:11:19.795Z"}
+info: Connected to the redid database. {"timestamp":"2022-08-23T14:11:19.820Z"}
+info: Connected to the database. {"timestamp":"2022-08-23T14:11:19.835Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-23T14:27:16.814Z"}
+info: Connected to the redid database. {"timestamp":"2022-08-23T14:27:16.838Z"}
+info: Connected to the database. {"timestamp":"2022-08-23T14:27:16.866Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '$_rootReferences')
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\types\keys.js:490:80
+    at Object.exports.tryWithPath (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\common.js:173:16)
+    at Object.rebuild (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\types\keys.js:490:24)
+    at internals.Base.$_mutateRebuild (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\base.js:694:30)
+    at internals.Base.method [as keys] (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\types\keys.js:259:28)
+    at Object.args (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\types\keys.js:48:23)
+    at Object.internals.generate (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\index.js:259:31)
+    at Object.object (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\index.js:58:30)
+    at newNoteValidator (C:\CFP_170\NodeJs\FundooNotes\src\validators\/user.validator.js:24:22)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-23T14:27:25.798Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '$_rootReferences')
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\types\keys.js:490:80
+    at Object.exports.tryWithPath (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\common.js:173:16)
+    at Object.rebuild (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\types\keys.js:490:24)
+    at internals.Base.$_mutateRebuild (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\base.js:694:30)
+    at internals.Base.method [as keys] (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\types\keys.js:259:28)
+    at Object.args (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\types\keys.js:48:23)
+    at Object.internals.generate (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\index.js:259:31)
+    at Object.object (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\index.js:58:30)
+    at newNoteValidator (C:\CFP_170\NodeJs\FundooNotes\src\validators\/user.validator.js:24:22)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-23T14:31:21.374Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '$_rootReferences')
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\types\keys.js:490:80
+    at Object.exports.tryWithPath (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\common.js:173:16)
+    at Object.rebuild (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\types\keys.js:490:24)
+    at internals.Base.$_mutateRebuild (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\base.js:694:30)
+    at internals.Base.method [as keys] (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\types\keys.js:259:28)
+    at Object.args (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\types\keys.js:48:23)
+    at Object.internals.generate (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\index.js:259:31)
+    at Object.object (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\index.js:58:30)
+    at newNoteValidator (C:\CFP_170\NodeJs\FundooNotes\src\validators\/user.validator.js:24:22)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-23T14:32:57.512Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '$_rootReferences')
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\types\keys.js:490:80
+    at Object.exports.tryWithPath (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\common.js:173:16)
+    at Object.rebuild (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\types\keys.js:490:24)
+    at internals.Base.$_mutateRebuild (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\base.js:694:30)
+    at internals.Base.method [as keys] (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\types\keys.js:259:28)
+    at Object.args (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\types\keys.js:48:23)
+    at Object.internals.generate (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\index.js:259:31)
+    at Object.object (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\index.js:58:30)
+    at newNoteValidator (C:\CFP_170\NodeJs\FundooNotes\src\validators\/user.validator.js:24:22)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-23T14:33:06.062Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '$_rootReferences')
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\types\keys.js:490:80
+    at Object.exports.tryWithPath (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\common.js:173:16)
+    at Object.rebuild (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\types\keys.js:490:24)
+    at internals.Base.$_mutateRebuild (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\base.js:694:30)
+    at internals.Base.method [as keys] (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\types\keys.js:259:28)
+    at Object.args (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\types\keys.js:48:23)
+    at Object.internals.generate (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\index.js:259:31)
+    at Object.object (C:\CFP_170\NodeJs\FundooNotes\node_modules\@hapi\joi\lib\index.js:58:30)
+    at newNoteValidator (C:\CFP_170\NodeJs\FundooNotes\src\validators\/user.validator.js:24:22)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-23T14:33:43.106Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-23T14:33:59.947Z"}
+info: Connected to the redid database. {"timestamp":"2022-08-23T14:33:59.983Z"}
+info: Connected to the database. {"timestamp":"2022-08-23T14:34:00.006Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-23T14:50:28.968Z"}
+info: Connected to the redid database. {"timestamp":"2022-08-23T14:50:29.003Z"}
+info: Connected to the database. {"timestamp":"2022-08-23T14:50:29.031Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'Hi', UserId: 'gowrav@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\CFP_170\NodeJs\FundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/Hi 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-23T14:50:57.952Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-23T14:57:16.089Z"}
+info: Connected to the redid database. {"timestamp":"2022-08-23T14:57:16.125Z"}
+info: Connected to the database. {"timestamp":"2022-08-23T14:57:16.147Z"}

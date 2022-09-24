@@ -1,0 +1,36 @@
+info: ::1 - - [27/Aug/2022:02:12:16 +0000] "DELETE /api/v1/notes/6308f979ddf1022e1405f2b9/deleteLabel HTTP/1.1" 200 90 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:02:25:41 +0000] "DELETE /api/v1/notes/6308f979ddf1022e1405f2b9/deleteLabel HTTP/1.1" 200 296 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:02:30:10 +0000] "POST /api/v1/notes HTTP/1.1" 201 271 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:02:30:50 +0000] "POST /api/v1/notes/630981b24d47671a7c435bb1 HTTP/1.1" 201 296 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:02:54 +0000] "DELETE /api/v1/notes/630981b24d47671a7c435bb1 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:04:14 +0000] "POST /api/v1/notes HTTP/1.1" 201 269 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:04:35 +0000] "POST /api/v1/notes/630997be02e98b1d902d14af HTTP/1.1" 201 294 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:07:24 +0000] "DELETE /api/v1/notes/630997be02e98b1d902d14af/deleteLabel HTTP/1.1" 200 296 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:09:05 +0000] "POST /api/v1/notes HTTP/1.1" 201 269 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:09:27 +0000] "POST /api/v1/notes/630998e1a75f2912fc8ce1a3 HTTP/1.1" 201 294 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:09:40 +0000] "DELETE /api/v1/notes/630998e1a75f2912fc8ce1a3/deleteLabel HTTP/1.1" 400 97 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:10:26 +0000] "DELETE /api/v1/notes/630998e1a75f2912fc8ce1a3/deleteLabel HTTP/1.1" 200 296 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:11:12 +0000] "POST /api/v1/notes/630998e1a75f2912fc8ce1a3 HTTP/1.1" 201 294 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:14:21 +0000] "DELETE /api/v1/notes/630998e1a75f2912fc8ce1a3 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:15:03 +0000] "POST /api/v1/notes HTTP/1.1" 201 267 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:15:22 +0000] "POST /api/v1/notes/63099a47d37bd03344869121 HTTP/1.1" 201 292 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:16:20 +0000] "DELETE /api/v1/notes/63099a47d37bd03344869121/deleteLabel HTTP/1.1" 200 294 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:16:52 +0000] "POST /api/v1/notes/63099a47d37bd03344869121 HTTP/1.1" 201 292 "-" "PostmanRuntime/7.29.2"
+

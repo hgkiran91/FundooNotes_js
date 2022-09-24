@@ -6,3 +6,5 @@ info: ::1 - - [19/Aug/2022:07:33:29 +0000] "PUT /api/v1/notes/62e3f3c328c38c27d4
 
 info: ::1 - - [19/Aug/2022:07:33:41 +0000] "PUT /api/v1/notes/62e3f3c328c38c27d4a12da4/isarchive HTTP/1.1" 202 327 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [19/Aug/2022:09:20:26 +0000] "PUT /api/v1/notes/62e3f3c328c38c27d4a12da4/isPin HTTP/1.1" 202 325 "-" "PostmanRuntime/7.29.2"
+

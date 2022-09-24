@@ -1,0 +1,27 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-26T04:20:18.366Z"}
+error: Could not connect to redis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)","syscall":"connect","timestamp":"2022-08-26T04:20:18.465Z"}
+info: Connected to the database. {"timestamp":"2022-08-26T04:20:18.551Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-26T04:24:30.826Z"}
+error: Could not connect to redis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)","syscall":"connect","timestamp":"2022-08-26T04:24:30.874Z"}
+info: Connected to the database. {"timestamp":"2022-08-26T04:24:30.926Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-26T04:26:38.100Z"}
+info: Connected to the redid database. {"timestamp":"2022-08-26T04:26:38.147Z"}
+info: Connected to the database. {"timestamp":"2022-08-26T04:26:38.189Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-26T13:35:26.737Z"}
+info: Connected to the redid database. {"timestamp":"2022-08-26T13:35:26.809Z"}
+info: Connected to the database. {"timestamp":"2022-08-26T13:35:26.878Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-26T15:21:19.536Z"}
+info: Connected to the redid database. {"timestamp":"2022-08-26T15:21:19.573Z"}
+info: Connected to the database. {"timestamp":"2022-08-26T15:21:19.599Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-26T16:00:57.130Z"}
+info: Connected to the redid database. {"timestamp":"2022-08-26T16:00:57.168Z"}
+info: Connected to the database. {"timestamp":"2022-08-26T16:00:57.191Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-26T16:07:00.368Z"}
+info: Connected to the redid database. {"timestamp":"2022-08-26T16:07:00.402Z"}
+info: Connected to the database. {"timestamp":"2022-08-26T16:07:00.435Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-26T16:48:22.820Z"}
+info: Connected to the redid database. {"timestamp":"2022-08-26T16:48:22.864Z"}
+info: Connected to the database. {"timestamp":"2022-08-26T16:48:22.930Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-26T17:09:52.392Z"}
+info: Connected to the redid database. {"timestamp":"2022-08-26T17:09:52.427Z"}
+info: Connected to the database. {"timestamp":"2022-08-26T17:09:52.447Z"}

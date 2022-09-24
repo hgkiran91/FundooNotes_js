@@ -1,5 +1,5 @@
 import { optional } from '@hapi/joi';
-import { Schema, model } from 'mongoose';
+import { Schema, model, Mongoose } from 'mongoose';
 
 const userSchema = new Schema(
     {
@@ -15,6 +15,10 @@ const userSchema = new Schema(
             type: String,
             required: optional
         },
+        LabelId: [{
+            type: String,
+            // required: optional
+        }],
         isArchived: {
             type: Boolean,
             // required: true

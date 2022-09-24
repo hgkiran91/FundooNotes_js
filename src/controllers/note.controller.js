@@ -3,7 +3,7 @@ import HttpStatus from 'http-status-codes';
 import * as noteService from '../services/note.service';
 
 /**
- * Controller to get all users available
+ * Controller to add note for users
  * @param  {object} req - request object
  * @param {object} res - response object
  * @param {Function} next
@@ -60,7 +60,7 @@ export const getNote = async (req, res, next) => {
         res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
             data: data,
-            message: 'User fetched successfully'
+            message: 'Note fetched successfully'
         });
     } catch (error) {
         next(error);
@@ -159,5 +159,70 @@ export const deleteNote = async (req, res, next) => {
         });
     } catch (error) {
         next(error);
+    }
+};
+
+/**
+ * Controller to get note by label name
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const getNoteByLabelName = async (req, res, next) => {
+    try {
+        const data = await noteService.getNoteByLabelName(req.params.Label);
+        res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
+            data: data,
+            message: 'Note by Label name fetched successfully'
+        });
+    } catch (error) {
+        next(error);
+    }
+};
+
+/**
+ * Controller to add label to note
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+
+export const addLabel = async (req, res, next) => {
+    try {
+        const data = await noteService.addLabel(req.params.noteId, req.body.LabelId);
+        res.status(HttpStatus.CREATED).json({
+            code: HttpStatus.CREATED,
+            data: data,
+            message: 'label added successfully'
+        });
+    } catch (error) {
+        res.status(HttpStatus.BAD_REQUEST).json({
+            code: HttpStatus.BAD_REQUEST,
+            message: `${error}`
+        });
+    }
+};
+
+/**
+ * Controller to delete label from note
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+
+export const deleteLabel = async (req, res, next) => {
+    try {
+        const data = await noteService.deleteLabel(req.params.noteId, req.body.LabelId);
+        res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
+            data: data,
+            message: 'label removed successfully'
+        });
+    } catch (error) {
+        res.status(HttpStatus.BAD_REQUEST).json({
+            code: HttpStatus.BAD_REQUEST,
+            message: `${error}`
+        });
     }
 };

@@ -1,0 +1,22 @@
+info: ::1 - - [21/Sep/2022:11:10:38 +0000] "GET /api-docs/ HTTP/1.1" 200 3103 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Sep/2022:11:10:38 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11678 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Sep/2022:11:10:38 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 144213 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Sep/2022:11:10:38 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 339614 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Sep/2022:11:10:38 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1097240 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Sep/2022:11:10:39 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Sep/2022:11:11:57 +0000] "POST /api/v1/users HTTP/1.1" 400 96 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Sep/2022:11:12:06 +0000] "POST /api/v1/users HTTP/1.1" 201 317 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Sep/2022:13:55:21 +0000] "POST /api/v1users HTTP/1.1" 404 47 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Sep/2022:13:56:25 +0000] "POST /api/v1/users HTTP/1.1" 400 67 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Sep/2022:14:00:09 +0000] "POST /api/v1/users HTTP/1.1" 201 317 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+

@@ -2512,3 +2512,559 @@ info: ::1 - - [19/Aug/2022:07:33:29 +0000] "PUT /api/v1/notes/62e3f3c328c38c27d4
 
 info: ::1 - - [19/Aug/2022:07:33:41 +0000] "PUT /api/v1/notes/62e3f3c328c38c27d4a12da4/isarchive HTTP/1.1" 202 327 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [19/Aug/2022:09:20:26 +0000] "PUT /api/v1/notes/62e3f3c328c38c27d4a12da4/isPin HTTP/1.1" 202 325 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\src\models\/label.model.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\src\services\/label.service.js:1:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12) {"date":"Mon Aug 22 2022 16:58:43 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":876619},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18463474,"external":32648438,"heapTotal":202280960,"heapUsed":171880384,"rss":237457408},"pid":11756,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: mongoose is not defined\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\models\\/label.model.js:4:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\services\\/label.service.js:1:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)","trace":[{"column":21,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\models\\/label.model.js","function":null,"line":4,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\services\\/label.service.js","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false}]}
+error: uncaughtException: C:\CFP_170\NodeJs\FundooNotes\src\models\label.model.js: The only valid meta property for new is new.target. (4:24)
+
+[0m [90m 2 |[39m [36mimport[39m { [33mSchema[39m[33m,[39m model } [36mfrom[39m [32m'mongoose'[39m[33m;[39m[0m
+[0m [90m 3 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 4 |[39m [36mconst[39m labelSchema [33m=[39m [36mnew[39m[33m.[39m[33mSchema[39m({[0m
+[0m [90m   |[39m                         [31m[1m^[22m[39m[0m
+[0m [90m 5 |[39m   label[33m:[39m { type[33m:[39m [33mString[39m[33m,[39m required[33m:[39m [36mtrue[39m }[33m,[39m[0m
+[0m [90m 6 |[39m   userId[33m:[39m { type[33m:[39m mongoose[33m.[39m[33mSchema[39m[33m.[39m[33mTypes[39m[33m.[39m[33mObjectId[39m[33m,[39m ref[33m:[39m [32m'User'[39m }[33m,[39m[0m
+[0m [90m 7 |[39m }[33m,[39m {[0m
+SyntaxError: C:\CFP_170\NodeJs\FundooNotes\src\models\label.model.js: The only valid meta property for new is new.target. (4:24)
+
+[0m [90m 2 |[39m [36mimport[39m { [33mSchema[39m[33m,[39m model } [36mfrom[39m [32m'mongoose'[39m[33m;[39m[0m
+[0m [90m 3 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 4 |[39m [36mconst[39m labelSchema [33m=[39m [36mnew[39m[33m.[39m[33mSchema[39m({[0m
+[0m [90m   |[39m                         [31m[1m^[22m[39m[0m
+[0m [90m 5 |[39m   label[33m:[39m { type[33m:[39m [33mString[39m[33m,[39m required[33m:[39m [36mtrue[39m }[33m,[39m[0m
+[0m [90m 6 |[39m   userId[33m:[39m { type[33m:[39m mongoose[33m.[39m[33mSchema[39m[33m.[39m[33mTypes[39m[33m.[39m[33mObjectId[39m[33m,[39m ref[33m:[39m [32m'User'[39m }[33m,[39m[0m
+[0m [90m 7 |[39m }[33m,[39m {[0m
+    at instantiate (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\parser\src\parse-error\credentials.js:61:22)
+    at toParseError (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\parser\src\parse-error.js:58:12)
+    at Parser.raise (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\parser\src\tokenizer\index.js:1736:19)
+    at Parser.parseMetaProperty (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\parser\src\parser\expression.js:1592:12)
+    at Parser.parseNewOrNewTarget (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\parser\src\parser\expression.js:1827:29)
+    at Parser.parseExprAtom (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\parser\src\parser\expression.js:1171:21)
+    at Parser.parseExprSubscripts (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\parser\src\parser\expression.js:684:23)
+    at Parser.parseUpdate (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\parser\src\parser\expression.js:663:21)
+    at Parser.parseMaybeUnary (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\parser\src\parser\expression.js:632:23)
+    at Parser.parseMaybeUnaryOrPrivate (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\parser\src\parser\expression.js:384:14)
+    at Parser.parseExprOps (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\parser\src\parser\expression.js:394:23)
+    at Parser.parseMaybeConditional (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\parser\src\parser\expression.js:352:23)
+    at Parser.parseMaybeAssign (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\parser\src\parser\expression.js:296:21)
+    at callback (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\parser\src\parser\expression.js:250:12)
+    at Parser.allowInAnd (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\parser\src\parser\expression.js:2968:16)
+    at Parser.parseMaybeAssignAllowIn (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\parser\src\parser\expression.js:249:17) {"date":"Mon Aug 22 2022 16:59:24 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":24,"index":108,"line":4},"pos":108,"reasonCode":"UnsupportedMetaProperty"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":876660},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18399496,"external":20136924,"heapTotal":203153408,"heapUsed":179814320,"rss":238919680},"pid":1188,"uid":null,"version":"v16.15.1"},"stack":"SyntaxError: C:\\CFP_170\\NodeJs\\FundooNotes\\src\\models\\label.model.js: The only valid meta property for new is new.target. (4:24)\n\n\u001b[0m \u001b[90m 2 |\u001b[39m \u001b[36mimport\u001b[39m { \u001b[33mSchema\u001b[39m\u001b[33m,\u001b[39m model } \u001b[36mfrom\u001b[39m \u001b[32m'mongoose'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 3 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 4 |\u001b[39m \u001b[36mconst\u001b[39m labelSchema \u001b[33m=\u001b[39m \u001b[36mnew\u001b[39m\u001b[33m.\u001b[39m\u001b[33mSchema\u001b[39m({\u001b[0m\n\u001b[0m \u001b[90m   |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 5 |\u001b[39m   label\u001b[33m:\u001b[39m { type\u001b[33m:\u001b[39m \u001b[33mString\u001b[39m\u001b[33m,\u001b[39m required\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m }\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 6 |\u001b[39m   userId\u001b[33m:\u001b[39m { type\u001b[33m:\u001b[39m mongoose\u001b[33m.\u001b[39m\u001b[33mSchema\u001b[39m\u001b[33m.\u001b[39m\u001b[33mTypes\u001b[39m\u001b[33m.\u001b[39m\u001b[33mObjectId\u001b[39m\u001b[33m,\u001b[39m ref\u001b[33m:\u001b[39m \u001b[32m'User'\u001b[39m }\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 7 |\u001b[39m }\u001b[33m,\u001b[39m {\u001b[0m\n    at instantiate (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parse-error\\credentials.js:61:22)\n    at toParseError (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parse-error.js:58:12)\n    at Parser.raise (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:1736:19)\n    at Parser.parseMetaProperty (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1592:12)\n    at Parser.parseNewOrNewTarget (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1827:29)\n    at Parser.parseExprAtom (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1171:21)\n    at Parser.parseExprSubscripts (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:684:23)\n    at Parser.parseUpdate (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:663:21)\n    at Parser.parseMaybeUnary (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:632:23)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:384:14)\n    at Parser.parseExprOps (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:394:23)\n    at Parser.parseMaybeConditional (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:352:23)\n    at Parser.parseMaybeAssign (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:296:21)\n    at callback (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:250:12)\n    at Parser.allowInAnd (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2968:16)\n    at Parser.parseMaybeAssignAllowIn (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:249:17)","trace":[{"column":22,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parse-error\\credentials.js","function":"instantiate","line":61,"method":null,"native":false},{"column":12,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parse-error.js","function":"toParseError","line":58,"method":null,"native":false},{"column":19,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.raise","line":1736,"method":"raise","native":false},{"column":12,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMetaProperty","line":1592,"method":"parseMetaProperty","native":false},{"column":29,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseNewOrNewTarget","line":1827,"method":"parseNewOrNewTarget","native":false},{"column":21,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprAtom","line":1171,"method":"parseExprAtom","native":false},{"column":23,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":684,"method":"parseExprSubscripts","native":false},{"column":21,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseUpdate","line":663,"method":"parseUpdate","native":false},{"column":23,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":632,"method":"parseMaybeUnary","native":false},{"column":14,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnaryOrPrivate","line":384,"method":"parseMaybeUnaryOrPrivate","native":false},{"column":23,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprOps","line":394,"method":"parseExprOps","native":false},{"column":23,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeConditional","line":352,"method":"parseMaybeConditional","native":false},{"column":21,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeAssign","line":296,"method":"parseMaybeAssign","native":false},{"column":12,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"callback","line":250,"method":null,"native":false},{"column":16,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.allowInAnd","line":2968,"method":"allowInAnd","native":false},{"column":17,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeAssignAllowIn","line":249,"method":"parseMaybeAssignAllowIn","native":false}]}
+error: uncaughtException: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\src\models\/label.model.js:6:19)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\src\services\/label.service.js:1:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12) {"date":"Mon Aug 22 2022 16:59:45 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":876680},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18554124,"external":32653402,"heapTotal":193753088,"heapUsed":163486352,"rss":230309888},"pid":19144,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: mongoose is not defined\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\models\\/label.model.js:6:19)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\services\\/label.service.js:1:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)","trace":[{"column":19,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\models\\/label.model.js","function":null,"line":6,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\services\\/label.service.js","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false}]}
+error: uncaughtException: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\src\models\/label.model.js:6:19)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\src\services\/label.service.js:1:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12) {"date":"Mon Aug 22 2022 17:00:32 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":876727},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18409755,"external":46919593,"heapTotal":194539520,"heapUsed":160208216,"rss":230072320},"pid":1408,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: mongoose is not defined\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\models\\/label.model.js:6:19)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\services\\/label.service.js:1:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)","trace":[{"column":19,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\models\\/label.model.js","function":null,"line":6,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\services\\/label.service.js","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\CFP_170\NodeJs\FundooNotes\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\src\/index.js:39:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Mon Aug 22 2022 17:01:06 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":876762},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18622825,"external":29725371,"heapTotal":194015232,"heapUsed":164624264,"rss":229752832},"pid":13716,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\/index.js:39:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","trace":[{"column":13,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\/index.js","function":null,"line":39,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\CFP_170\NodeJs\FundooNotes\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\src\/index.js:39:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Mon Aug 22 2022 17:03:29 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":876905},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18566677,"external":38484774,"heapTotal":194015232,"heapUsed":167802824,"rss":230772736},"pid":5152,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\/index.js:39:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","trace":[{"column":13,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\/index.js","function":null,"line":39,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\CFP_170\NodeJs\FundooNotes\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\src\/index.js:39:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Mon Aug 22 2022 17:05:52 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":877048},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18586718,"external":46988290,"heapTotal":194539520,"heapUsed":163161960,"rss":230879232},"pid":7800,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\/index.js:39:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","trace":[{"column":13,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\/index.js","function":null,"line":39,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\CFP_170\NodeJs\FundooNotes\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\src\/index.js:39:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Mon Aug 22 2022 17:06:02 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":877058},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18457417,"external":30232113,"heapTotal":195325952,"heapUsed":164282848,"rss":230739968},"pid":14312,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\/index.js:39:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","trace":[{"column":13,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\/index.js","function":null,"line":39,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\CFP_170\NodeJs\FundooNotes\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\src\/index.js:39:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Mon Aug 22 2022 17:08:30 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":877206},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18478238,"external":27663338,"heapTotal":194539520,"heapUsed":165730304,"rss":230895616},"pid":1036,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\/index.js:39:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","trace":[{"column":13,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\/index.js","function":null,"line":39,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\CFP_170\NodeJs\FundooNotes\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\src\/index.js:39:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Mon Aug 22 2022 17:12:05 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":877421},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18566679,"external":23661733,"heapTotal":194015232,"heapUsed":167857624,"rss":230584320},"pid":15020,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\/index.js:39:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","trace":[{"column":13,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\/index.js","function":null,"line":39,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\CFP_170\NodeJs\FundooNotes\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\src\/index.js:39:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Mon Aug 22 2022 17:12:15 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":877431},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18457415,"external":23973478,"heapTotal":193228800,"heapUsed":160230736,"rss":228999168},"pid":4940,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\/index.js:39:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","trace":[{"column":13,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\/index.js","function":null,"line":39,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\CFP_170\NodeJs\FundooNotes\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\CFP_170\NodeJs\FundooNotes\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\src\/index.js:39:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Mon Aug 22 2022 17:14:12 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":877548},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18457415,"external":47396268,"heapTotal":193228800,"heapUsed":161136440,"rss":229122048},"pid":9248,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\/index.js:39:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","trace":[{"column":13,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\/index.js","function":null,"line":39,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+info: ::1 - - [22/Aug/2022:11:55:33 +0000] "PUT /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Aug/2022:11:56:54 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Aug/2022:11:57:15 +0000] "POST /api/v1/users/login HTTP/1.1" 200 270 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Aug/2022:11:58:10 +0000] "POST /api/v1/labels HTTP/1.1" 201 192 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Aug/2022:14:52:35 +0000] "POST /api/v1/labels HTTP/1.1" 201 220 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Aug/2022:15:32:50 +0000] "PUT /api/v1/labels/6303983234e14e0730e27e31 HTTP/1.1" 202 220 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Aug/2022:15:34:28 +0000] "PUT /api/v1/labels/6303983234e14e0730e27e31 HTTP/1.1" 202 220 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Aug/2022:15:36:10 +0000] "DELETE /api/v1/labels/6303983234e14e0730e27e31 HTTP/1.1" 202 51 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Aug/2022:15:36:28 +0000] "DELETE /api/v1/labels HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Aug/2022:15:36:33 +0000] "POST /api/v1/labels HTTP/1.1" 201 223 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Aug/2022:15:36:57 +0000] "PUT /api/v1/labels/6303a28196d9990dd4639229 HTTP/1.1" 202 223 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Aug/2022:15:49:43 +0000] "PUT /api/v1/labels/6303a28196d9990dd4639229 HTTP/1.1" 202 223 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Aug/2022:15:51:52 +0000] "PUT /api/v1/labels/6303a28196d9990dd4639229 HTTP/1.1" 202 220 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Aug/2022:15:52:02 +0000] "PUT /api/v1/labels/6303a28196d9990dd4639229 HTTP/1.1" 202 223 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Aug/2022:15:53:39 +0000] "PUT /api/v1/labels/6303a28196d9990dd4639229 HTTP/1.1" 202 223 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Aug/2022:15:54:04 +0000] "PUT /api/v1/labels/6303a28196d9990dd4639229 HTTP/1.1" 202 220 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Aug/2022:15:54:39 +0000] "DELETE /api/v1/labels/6303a28196d9990dd4639229 HTTP/1.1" 202 51 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Aug/2022:15:54:52 +0000] "POST /api/v1/labels/6303a28196d9990dd4639229 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Aug/2022:15:54:58 +0000] "POST /api/v1/labels HTTP/1.1" 201 220 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Aug/2022:15:55:08 +0000] "PUT /api/v1/labels/6303a28196d9990dd4639229 HTTP/1.1" 202 63 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Aug/2022:15:55:21 +0000] "PUT /api/v1/labels/6303a28196d9990dd4639229 HTTP/1.1" 202 63 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Aug/2022:15:55:37 +0000] "PUT /api/v1/labels/6303a6d2291e442808093e54 HTTP/1.1" 202 223 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Aug/2022:15:55:44 +0000] "PUT /api/v1/labels/6303a6d2291e442808093e54 HTTP/1.1" 202 220 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Aug/2022:15:55:54 +0000] "PUT /api/v1/labels/6303a6d2291e442808093e54 HTTP/1.1" 202 223 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Aug/2022:02:28:34 +0000] "PUT /api/v1/labels/6303a6d2291e442808093e54 HTTP/1.1" 202 220 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Aug/2022:02:28:51 +0000] "PUT /api/v1/labels/6303a6d2291e442808093e54 HTTP/1.1" 202 223 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: write ECONNRESET
+Error: write ECONNRESET
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:817:11)
+    at Socket._write (node:net:829:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at Socket.Writable.write (node:internal/streams/writable:334:10)
+    at Connection.C.sendBytes (C:\CFP_170\NodeJs\FundooNotes\node_modules\amqplib\lib\connection.js:527:15)
+    at Connection.C.sendHeartbeat (C:\CFP_170\NodeJs\FundooNotes\node_modules\amqplib\lib\connection.js:531:15)
+    at Heart.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\node_modules\amqplib\lib\connection.js:441:12)
+    at Heart.emit (node:events:527:28)
+    at Heart.emit (node:domain:475:12)
+    at Heart.runHeartbeat (C:\CFP_170\NodeJs\FundooNotes\node_modules\amqplib\lib\heartbeat.js:88:17)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7) {"date":"Tue Aug 23 2022 12:42:13 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":947629},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18438955,"external":20356883,"heapTotal":121778176,"heapUsed":116530656,"rss":79208448},"pid":16432,"uid":null,"version":"v16.15.1"},"stack":"Error: write ECONNRESET\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at Socket._writeGeneric (node:net:817:11)\n    at Socket._write (node:net:829:8)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at Socket.Writable.write (node:internal/streams/writable:334:10)\n    at Connection.C.sendBytes (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\connection.js:527:15)\n    at Connection.C.sendHeartbeat (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\connection.js:531:15)\n    at Heart.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\connection.js:441:12)\n    at Heart.emit (node:events:527:28)\n    at Heart.emit (node:domain:475:12)\n    at Heart.runHeartbeat (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\heartbeat.js:88:17)\n    at listOnTimeout (node:internal/timers:559:17)\n    at processTimers (node:internal/timers:502:7)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"Socket._writeGeneric","line":817,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"Socket._write","line":829,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"Socket.Writable.write","line":334,"method":"write","native":false},{"column":15,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.C.sendBytes","line":527,"method":"sendBytes","native":false},{"column":15,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.C.sendHeartbeat","line":531,"method":"sendHeartbeat","native":false},{"column":12,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\connection.js","function":null,"line":441,"method":null,"native":false},{"column":28,"file":"node:events","function":"Heart.emit","line":527,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Heart.emit","line":475,"method":"emit","native":false},{"column":17,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\amqplib\\lib\\heartbeat.js","function":"Heart.runHeartbeat","line":88,"method":"runHeartbeat","native":false},{"column":17,"file":"node:internal/timers","function":"listOnTimeout","line":559,"method":null,"native":false},{"column":7,"file":"node:internal/timers","function":"processTimers","line":502,"method":null,"native":false}]}
+info: ::1 - - [23/Aug/2022:14:26:11 +0000] "POST /api/v1/notes HTTP/1.1" 400 66 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Aug/2022:14:27:25 +0000] "POST /api/v1/notes HTTP/1.1" 500 99 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Aug/2022:14:30:43 +0000] "POST /api/v1/users/login HTTP/1.1" 200 270 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Aug/2022:14:31:21 +0000] "POST /api/v1/notes HTTP/1.1" 500 99 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Aug/2022:14:32:57 +0000] "POST /api/v1/notes HTTP/1.1" 500 99 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Aug/2022:14:33:06 +0000] "POST /api/v1/notes HTTP/1.1" 500 99 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Aug/2022:14:33:43 +0000] "POST /api/v1/notes HTTP/1.1" 500 99 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Aug/2022:14:34:10 +0000] "POST /api/v1/notes HTTP/1.1" 400 78 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Aug/2022:14:34:23 +0000] "POST /api/v1/notes HTTP/1.1" 201 300 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Aug/2022:14:38:09 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: label is not defined
+ReferenceError: label is not defined
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\src\routes\/note.route.js:34:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\CFP_170\NodeJs\FundooNotes\src\routes\/index.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\CFP_170\NodeJs\FundooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12) {"date":"Tue Aug 23 2022 20:19:24 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":975059},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19048093,"external":47579772,"heapTotal":197160960,"heapUsed":170782296,"rss":234000384},"pid":19484,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: label is not defined\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\routes\\/note.route.js:34:18)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\CFP_170\\NodeJs\\FundooNotes\\src\\routes\\/index.js:5:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)","trace":[{"column":18,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\routes\\/note.route.js","function":null,"line":34,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\CFP_170\\NodeJs\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false}]}
+info: ::1 - - [23/Aug/2022:14:50:57 +0000] "GET /api/v1/notes/Hi HTTP/1.1" 500 163 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Aug/2022:14:54:43 +0000] "GET /api/v1/notes/Hi HTTP/1.1" 401 40 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Aug/2022:14:57:32 +0000] "GET /api/v1/notes/Hi HTTP/1.1" 401 40 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [26/Aug/2022:13:30:26 +0000] "POST /api/v1/users/login HTTP/1.1" 200 270 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [26/Aug/2022:13:31:35 +0000] "POST /api/v1/notes HTTP/1.1" 201 269 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [26/Aug/2022:13:35:34 +0000] "POST /api/v1/notes/6308cb37b7dd731a746dbf81 HTTP/1.1" 201 294 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [26/Aug/2022:15:21:26 +0000] "DELETE /api/v1/notes/6308cb37b7dd731a746dbf81 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [26/Aug/2022:16:02:16 +0000] "POST /api/v1/notes HTTP/1.1" 201 269 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [26/Aug/2022:16:03:33 +0000] "POST /api/v1/notes/6308ee88fe5806410c34ebd8 HTTP/1.1" 201 294 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [26/Aug/2022:16:04:11 +0000] "DELETE /api/v1/notes/6308ee88fe5806410c34ebd8 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [26/Aug/2022:16:07:35 +0000] "POST /api/v1/notes HTTP/1.1" 201 271 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [26/Aug/2022:16:08:23 +0000] "POST /api/v1/notes/6308efc7a479c7423861faec HTTP/1.1" 201 296 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [26/Aug/2022:16:08:32 +0000] "DELETE /api/v1/notes/6308efc7a479c7423861faec HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [26/Aug/2022:16:48:57 +0000] "POST /api/v1/notes HTTP/1.1" 201 269 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [26/Aug/2022:16:49:40 +0000] "POST /api/v1/notes/6308f979ddf1022e1405f2b9 HTTP/1.1" 201 294 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [26/Aug/2022:16:49:54 +0000] "DELETE /api/v1/notes/6308f979ddf1022e1405f2b9/deleteLabel HTTP/1.1" 400 88 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [26/Aug/2022:17:09:56 +0000] "DELETE /api/v1/notes/6308f979ddf1022e1405f2b9/deleteLabel HTTP/1.1" 400 205 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Fri Aug 26 2022 23:11:16 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":53424},"process":{"argv":["node","C:\\CFP_170\\NodeJs\\FundooNotes\\src\\index.js"],"cwd":"C:\\CFP_170\\NodeJs\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18389951,"external":20257090,"heapTotal":122302464,"heapUsed":116047200,"rss":21258240},"pid":10948,"uid":null,"version":"v16.15.1"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}
+info: ::1 - - [27/Aug/2022:02:12:16 +0000] "DELETE /api/v1/notes/6308f979ddf1022e1405f2b9/deleteLabel HTTP/1.1" 200 90 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:02:25:41 +0000] "DELETE /api/v1/notes/6308f979ddf1022e1405f2b9/deleteLabel HTTP/1.1" 200 296 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:02:30:10 +0000] "POST /api/v1/notes HTTP/1.1" 201 271 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:02:30:50 +0000] "POST /api/v1/notes/630981b24d47671a7c435bb1 HTTP/1.1" 201 296 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:02:54 +0000] "DELETE /api/v1/notes/630981b24d47671a7c435bb1 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:04:14 +0000] "POST /api/v1/notes HTTP/1.1" 201 269 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:04:35 +0000] "POST /api/v1/notes/630997be02e98b1d902d14af HTTP/1.1" 201 294 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:07:24 +0000] "DELETE /api/v1/notes/630997be02e98b1d902d14af/deleteLabel HTTP/1.1" 200 296 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:09:05 +0000] "POST /api/v1/notes HTTP/1.1" 201 269 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:09:27 +0000] "POST /api/v1/notes/630998e1a75f2912fc8ce1a3 HTTP/1.1" 201 294 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:09:40 +0000] "DELETE /api/v1/notes/630998e1a75f2912fc8ce1a3/deleteLabel HTTP/1.1" 400 97 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:10:26 +0000] "DELETE /api/v1/notes/630998e1a75f2912fc8ce1a3/deleteLabel HTTP/1.1" 200 296 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:11:12 +0000] "POST /api/v1/notes/630998e1a75f2912fc8ce1a3 HTTP/1.1" 201 294 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:14:21 +0000] "DELETE /api/v1/notes/630998e1a75f2912fc8ce1a3 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:15:03 +0000] "POST /api/v1/notes HTTP/1.1" 201 267 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:15:22 +0000] "POST /api/v1/notes/63099a47d37bd03344869121 HTTP/1.1" 201 292 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:16:20 +0000] "DELETE /api/v1/notes/63099a47d37bd03344869121/deleteLabel HTTP/1.1" 200 294 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Aug/2022:04:16:52 +0000] "POST /api/v1/notes/63099a47d37bd03344869121 HTTP/1.1" 201 292 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Aug/2022:11:16:41 +0000] "DELETE /api/v1/notes/63099a47d37bd03344869121 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Aug/2022:11:17:45 +0000] "POST /api/v1/notes HTTP/1.1" 201 271 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Aug/2022:11:19:04 +0000] "POST /api/v1/notes/630ca05942d4560f0c16e02e HTTP/1.1" 201 296 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Aug/2022:11:19:47 +0000] "DELETE /api/v1/notes/630ca05942d4560f0c16e02e/deleteLabel HTTP/1.1" 200 298 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Aug/2022:11:26:32 +0000] "POST /api/v1/notes/630ca05942d4560f0c16e02e HTTP/1.1" 201 296 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Aug/2022:11:26:59 +0000] "DELETE /api/v1/notes/630ca05942d4560f0c16e02e/deleteLabel HTTP/1.1" 200 298 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Aug/2022:11:30:01 +0000] "DELETE /api/v1/notes/630ca05942d4560f0c16e02e/deleteLabel HTTP/1.1" 400 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Aug/2022:11:32:02 +0000] "DELETE /api/v1/notes/630ca05942d4560f0c16e02e/deleteLabel HTTP/1.1" 200 298 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Aug/2022:11:33:40 +0000] "POST /api/v1/notes/630ca05942d4560f0c16e02e HTTP/1.1" 201 296 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Aug/2022:11:33:47 +0000] "DELETE /api/v1/notes/630ca05942d4560f0c16e02e/deleteLabel HTTP/1.1" 200 298 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Aug/2022:04:24:23 +0000] "POST /api/v1/notes/630ca05942d4560f0c16e02e HTTP/1.1" 201 296 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Aug/2022:04:25:01 +0000] "DELETE /api/v1/notes/630ca05942d4560f0c16e02e/deleteLabel HTTP/1.1" 200 298 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Aug/2022:04:25:51 +0000] "POST /api/v1/notes/630ca05942d4560f0c16e02e HTTP/1.1" 201 296 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Aug/2022:04:26:16 +0000] "DELETE /api/v1/notes/630ca05942d4560f0c16e02e/deleteLabel HTTP/1.1" 200 298 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Aug/2022:04:30:20 +0000] "POST /api/v1/notes/630ca05942d4560f0c16e02e HTTP/1.1" 201 296 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Aug/2022:04:30:31 +0000] "DELETE /api/v1/notes/630ca05942d4560f0c16e02e/deleteLabel HTTP/1.1" 200 276 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Sep/2022:11:10:38 +0000] "GET /api-docs/ HTTP/1.1" 200 3103 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Sep/2022:11:10:38 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11678 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Sep/2022:11:10:38 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 144213 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Sep/2022:11:10:38 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 339614 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Sep/2022:11:10:38 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1097240 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Sep/2022:11:10:39 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Sep/2022:11:11:57 +0000] "POST /api/v1/users HTTP/1.1" 400 96 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Sep/2022:11:12:06 +0000] "POST /api/v1/users HTTP/1.1" 201 317 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Sep/2022:13:55:21 +0000] "POST /api/v1users HTTP/1.1" 404 47 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Sep/2022:13:56:25 +0000] "POST /api/v1/users HTTP/1.1" 400 67 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Sep/2022:14:00:09 +0000] "POST /api/v1/users HTTP/1.1" 201 317 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Sep/2022:02:15:01 +0000] "POST /api/v1/users HTTP/1.1" 400 67 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Sep/2022:02:15:39 +0000] "POST /api/v1/users HTTP/1.1" 400 67 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Sep/2022:02:17:23 +0000] "POST /api/v1/users HTTP/1.1" 400 67 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Sep/2022:02:18:55 +0000] "POST /api/v1/users HTTP/1.1" 400 149 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Sep/2022:02:19:40 +0000] "POST /api/v1/users HTTP/1.1" 201 321 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Sep/2022:02:27:53 +0000] "POST /api/v1/users HTTP/1.1" 400 67 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Sep/2022:02:29:09 +0000] "POST /api/v1/users HTTP/1.1" 400 67 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Sep/2022:02:30:21 +0000] "POST /api/v1/users HTTP/1.1" 400 149 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Sep/2022:02:30:38 +0000] "POST /api/v1/users HTTP/1.1" 201 321 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Sep/2022:08:26:11 +0000] "POST /api/v1/users HTTP/1.1" 201 321 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Sep/2022:10:01:29 +0000] "POST /api/v1/users HTTP/1.1" 400 148 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Sep/2022:10:01:44 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Sep/2022:10:43:01 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Sep/2022:03:35:32 +0000] "POST /api/v1/users HTTP/1.1" 201 321 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Sep/2022:03:36:36 +0000] "POST /api/v1/users/login HTTP/1.1" 200 270 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Sep/2022:05:23:28 +0000] "POST /api/v1/users/login HTTP/1.1" 200 270 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Sep/2022:10:29:01 +0000] "POST /api/v1/users HTTP/1.1" 400 96 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Sep/2022:10:29:09 +0000] "POST /api/v1/users HTTP/1.1" 201 318 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Sep/2022:10:29:46 +0000] "POST /api/v1/users/login HTTP/1.1" 200 273 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Sep/2022:10:31:32 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 58 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Sep/2022:10:31:59 +0000] "GET /api/v1/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZvbW9oYTM5MTlAcGFoZWQuY29tIiwiX2lkIjoiNjMyZDhhNzUxZGRhMTYxZjIwMzk5MWI2IiwiaWF0IjoxNjYzOTI5MDg3fQ.HiMFxhFTQACVkCZIawiebBlZo_xuflkb7Un_M5pQhPg HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Sep/2022:10:31:59 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Sep/2022:10:35:48 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 58 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Sep/2022:10:46:01 +0000] "GET /api/v1/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZvbW9oYTM5MTlAcGFoZWQuY29tIiwiX2lkIjoiNjMyZDhhNzUxZGRhMTYxZjIwMzk5MWI2IiwiaWF0IjoxNjYzOTI5MzMyfQ.RrchuRe-8chSPm68Z2Sy9aRIsXga-deIOBvPn1Xsdio HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Sep/2022:12:54:34 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 58 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Sep/2022:12:55:49 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 58 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Sep/2022:12:59:31 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 58 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Sep/2022:13:00:50 +0000] "POST /api/v1/users HTTP/1.1" 201 321 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Sep/2022:13:01:10 +0000] "POST /api/v1/users/login HTTP/1.1" 200 275 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Sep/2022:13:04:02 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 58 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Sep/2022:13:05:04 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 58 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Sep/2022:06:20:52 +0000] "GET /api-docs/ HTTP/1.1" 200 3103 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Sep/2022:06:20:52 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11678 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Sep/2022:06:20:52 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 144213 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Sep/2022:06:20:52 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 339614 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Sep/2022:06:20:52 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1097240 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Sep/2022:06:23:35 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Sep/2022:06:23:42 +0000] "POST /api/v1/users HTTP/1.1" 400 155 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Sep/2022:06:24:23 +0000] "POST /api/v1/users HTTP/1.1" 201 327 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Sep/2022:06:24:40 +0000] "POST /api/v1/users/login HTTP/1.1" 200 278 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Sep/2022:06:24:47 +0000] "POST /api/v1/users/login HTTP/1.1" 200 278 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Sep/2022:06:25:08 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 401 57 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Sep/2022:06:28:26 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 401 57 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Sep/2022:14:07:52 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 401 57 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+

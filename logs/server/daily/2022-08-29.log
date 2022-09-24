@@ -1,0 +1,21 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-29T11:15:29.656Z"}
+error: Could not connect to redis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)","syscall":"connect","timestamp":"2022-08-29T11:15:29.717Z"}
+info: Connected to the database. {"timestamp":"2022-08-29T11:15:29.756Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-29T11:16:00.048Z"}
+info: Connected to the redid database. {"timestamp":"2022-08-29T11:16:00.108Z"}
+info: Connected to the database. {"timestamp":"2022-08-29T11:16:00.136Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-29T11:26:05.266Z"}
+info: Connected to the redid database. {"timestamp":"2022-08-29T11:26:05.315Z"}
+info: Connected to the database. {"timestamp":"2022-08-29T11:26:05.353Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-29T11:29:15.100Z"}
+info: Connected to the redid database. {"timestamp":"2022-08-29T11:29:15.142Z"}
+info: Connected to the database. {"timestamp":"2022-08-29T11:29:15.170Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-29T11:29:55.256Z"}
+info: Connected to the redid database. {"timestamp":"2022-08-29T11:29:55.308Z"}
+info: Connected to the database. {"timestamp":"2022-08-29T11:29:55.336Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-29T11:31:19.793Z"}
+info: Connected to the redid database. {"timestamp":"2022-08-29T11:31:19.821Z"}
+info: Connected to the database. {"timestamp":"2022-08-29T11:31:19.845Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-29T11:33:37.525Z"}
+info: Connected to the redid database. {"timestamp":"2022-08-29T11:33:37.612Z"}
+info: Connected to the database. {"timestamp":"2022-08-29T11:33:37.664Z"}

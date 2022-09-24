@@ -1,0 +1,37 @@
+error: Could not connect to redis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)","syscall":"connect","timestamp":"2022-08-22T11:31:06.628Z"}
+info: Connected to the database. {"timestamp":"2022-08-22T11:31:06.681Z"}
+error: Could not connect to redis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)","syscall":"connect","timestamp":"2022-08-22T11:33:29.667Z"}
+info: Connected to the database. {"timestamp":"2022-08-22T11:33:29.703Z"}
+error: Could not connect to redis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)","syscall":"connect","timestamp":"2022-08-22T11:35:52.510Z"}
+info: Connected to the database. {"timestamp":"2022-08-22T11:35:52.551Z"}
+error: Could not connect to redis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)","syscall":"connect","timestamp":"2022-08-22T11:36:02.628Z"}
+info: Connected to the database. {"timestamp":"2022-08-22T11:36:02.663Z"}
+error: Could not connect to redis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)","syscall":"connect","timestamp":"2022-08-22T11:38:30.768Z"}
+info: Connected to the database. {"timestamp":"2022-08-22T11:38:30.804Z"}
+error: Could not connect to redis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)","syscall":"connect","timestamp":"2022-08-22T11:42:05.894Z"}
+info: Connected to the database. {"timestamp":"2022-08-22T11:42:05.929Z"}
+error: Could not connect to redis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)","syscall":"connect","timestamp":"2022-08-22T11:42:15.981Z"}
+info: Connected to the database. {"timestamp":"2022-08-22T11:42:16.029Z"}
+error: Could not connect to redis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)","syscall":"connect","timestamp":"2022-08-22T11:44:12.833Z"}
+info: Connected to the database. {"timestamp":"2022-08-22T11:44:12.882Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-22T11:46:41.541Z"}
+error: Could not connect to redis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)","syscall":"connect","timestamp":"2022-08-22T11:46:41.570Z"}
+info: Connected to the database. {"timestamp":"2022-08-22T11:46:41.597Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-22T11:56:31.988Z"}
+info: Connected to the redid database. {"timestamp":"2022-08-22T11:56:32.020Z"}
+info: Connected to the database. {"timestamp":"2022-08-22T11:56:32.053Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-22T14:52:26.307Z"}
+info: Connected to the redid database. {"timestamp":"2022-08-22T14:52:26.341Z"}
+info: Connected to the database. {"timestamp":"2022-08-22T14:52:26.357Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-22T15:32:27.245Z"}
+info: Connected to the redid database. {"timestamp":"2022-08-22T15:32:27.273Z"}
+info: Connected to the database. {"timestamp":"2022-08-22T15:32:27.297Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-22T15:51:49.172Z"}
+info: Connected to the redid database. {"timestamp":"2022-08-22T15:51:49.194Z"}
+info: Connected to the database. {"timestamp":"2022-08-22T15:51:49.214Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-22T15:53:31.152Z"}
+info: Connected to the redid database. {"timestamp":"2022-08-22T15:53:31.182Z"}
+info: Connected to the database. {"timestamp":"2022-08-22T15:53:31.201Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-22T15:54:01.332Z"}
+info: Connected to the redid database. {"timestamp":"2022-08-22T15:54:01.362Z"}
+info: Connected to the database. {"timestamp":"2022-08-22T15:54:01.384Z"}
